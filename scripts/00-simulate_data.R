@@ -9,14 +9,14 @@
 install.packages("tidyverse")
 install.packages("janitor")
 install.packages("tidyr")
-install.packages("tidyverse")
+install.packages("haven")
 install.packages("dplyr")
 
 #### Workspace setup ####
 library(tidyverse)
 library(janitor)
 library(tidyr)
-library(tidyverse)
+library(haven)
 library(dplyr)
 
 #### Simulate data ####
