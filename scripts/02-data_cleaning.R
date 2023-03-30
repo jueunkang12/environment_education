@@ -16,8 +16,23 @@ library(dplyr)
 #### Reads in data to be cleaned ####
 raw_data <- read_dta("~/Documents/environment_education/inputs/data/GSS2021.dta")
 
-
-
+#### Select relevant variables ####
+clean_data <- clean_names(raw_data) |>
+  select(
+    id, 
+    degree,
+    grnprice,
+    grnmoney
+  ) |>
+  drop_na(
+    id,
+    degree,
+    grnprice,
+    grnmoney
+  )
+  
+#### Clean data to show respondents' degree and count ####
+clean_data
 
 
 
