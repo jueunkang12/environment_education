@@ -1,26 +1,22 @@
 #### Preamble ####
 # Purpose: Downloads and saves the data from [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Data: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
-# License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Author: Jueun Kang
+# Data: 29 March 2023
+# Contact: jueun.kang@mail.utoronto.ca
+# Pre-requisites: N/A
+# Any other information needed? N/A
 
 
 #### Workspace setup ####
-library(opendatatoronto)
 library(tidyverse)
-# [...UPDATE THIS...]
+library(janitor)
+library(tidyr)
+library(haven)
+library(dplyr)
 
-#### Download data ####
-# [...ADD CODE HERE TO DOWNLOAD...]
+#### Download raw data ####
+raw_data <-
+  read_dta("~/Documents/environment_education/inputs/data/GSS2021.dta")
 
-
-
-#### Save data ####
-# [...UPDATE THIS...]
-# change the_raw_data to whatever name you assigned when you downloaded it.
-write_csv(the_raw_data, "inputs/data/raw_data.csv") 
-
-         
+#### Save raw data ####
+write_csv(raw_data, "~/Documents/environment_education/inputs/data/raw_data.csv") 
