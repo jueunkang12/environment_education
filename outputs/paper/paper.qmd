@@ -2,8 +2,7 @@
 title: "My title"
 subtitle: "My subtitle if needed"
 author: 
-  - First author
-  - Another author
+  - Jueun Kang
 thanks: "Code and data are available at: LINK."
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
@@ -18,8 +17,21 @@ bibliography: references.bib
 #| warning: false
 #| message: false
 
+#### Quarto workspace setup and reading csv's into quarto ####
 library(tidyverse)
 library(palmerpenguins)
+library(haven)
+library(here)
+
+# respondents' degree obtained 
+clean_data_degree <- read_csv("~/Documents/environment_education/inputs/data/degrees_clean.csv")
+
+# respondents' willingness to donate towards protecting the environment
+clean_data_willingness <- read_csv("~/Documents/environment_education/inputs/data/willingness_clean.csv")
+
+# respondents who donated to an environmental group
+clean_data_donation <- read_csv("~/Documents/environment_education/inputs/data/donation_clean.csv")
+
 ```
 
 
@@ -37,6 +49,15 @@ Our data is of penguins (@fig-bills).
 #| label: fig-bills
 #| fig-cap: Bills of penguins
 #| echo: false
+
+clean_data_respondent |>
+  ggplot(aes(x = degrees_clean)) +
+  geom_bar(fill = "slateblue1") +
+  theme_minimal() +
+  labs(x = "Highest Education Level",
+       y = "Number of Participants",
+       title = "Education Level of the Respondant.")
+
 
 ggplot(penguins, aes(x = island, fill = species)) +
   geom_bar(alpha = 0.8) +
