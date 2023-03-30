@@ -50,6 +50,20 @@ Our data is of penguins (@fig-bills).
 #| fig-cap: Bills of penguins
 #| echo: false
 
+clean_data_degree <-
+  clean_data_degree |>
+  mutate(
+    degree = 
+      recode(
+        degree,
+        "0" = "< High School",
+        "1" = "High School",
+        "2" = "Junior College",
+        "3" = "Bachelors",
+        "4" = "Graduate"
+      )
+  )
+
 clean_data_degree |>
   ggplot(aes(x = degree)) +
   geom_bar(fill = "slateblue1") +
