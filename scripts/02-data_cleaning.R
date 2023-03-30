@@ -53,7 +53,7 @@ donation_clean <- clean_data |>
   )
 
 #### Save data ####
-# [...UPDATE THIS...]
-# change cleaned_data to whatever name you end up with at the end of cleaning
-write_csv(cleaned_data, "outputs/data/cleaned_data.csv")
-
+write_csv(clean_data, "~/Documents/environment_education/inputs/data/clean_data.csv")
+write_csv(degrees_clean, "~/Documents/environment_education/inputs/data/degrees_clean.csv")
+write_csv(willingness_clean, "~/Documents/environment_education/inputs/data/willingness_clean.csv")
+write_csv(donation_clean, "~/Documents/environment_education/inputs/data/donation_clean.csv")
