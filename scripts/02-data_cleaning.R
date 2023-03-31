@@ -95,6 +95,22 @@ donation_clean <- donation_clean |>
       )
   )
 
+#### Reorder variables in graph showing respondents' degree ####
+degrees_clean <- degrees_clean |>
+  mutate(
+    degree =
+      fct_relevel(
+        degree,
+        "< High School",
+        "High School",
+        "Junior College",
+        "Bachelors",
+        "Graduate"
+      )
+  )
+
+
+
 #### Save data ####
 write_csv(clean_data, "~/Documents/environment_education/inputs/data/clean_data.csv")
 write_csv(degrees_clean, "~/Documents/environment_education/inputs/data/degrees_clean.csv")
