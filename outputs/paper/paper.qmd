@@ -1,9 +1,9 @@
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
+title: "This is my paper title"
+subtitle: "This is my subtitle"
 author: 
   - Jueun Kang
-thanks: "Code and data are available at: LINK."
+thanks: "Code and data are available at: LINK"
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
 abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
@@ -45,72 +45,108 @@ You can and should cross-reference sections and sub-sections. For instance, @sec
 
 Our data is of penguins (@fig-bills).
 
-```{r}
-#| label: fig-bills
-#| fig-cap: Bills of penguins
-#| echo: false
+## Data Source and Methodology
 
-clean_data_degree <-
-  clean_data_degree |>
-  mutate(
-    degree = 
-      recode(
-        degree,
-        "0" = "< High School",
-        "1" = "High School",
-        "2" = "Junior College",
-        "3" = "Bachelors",
-        "4" = "Graduate"
-      )
-  )
+Talk about data source and methodology
+
+### Strengths and Weaknesses of GSS
+
+Talk about strengths and weaknesses of GSS
+
+### Potential Ethical and Bias Issues
+
+Talk about potential ethical and bias issues
+
+### Attributes
+
+Attributes go here
+
+
+## Exploration
+
+```{r}
+#| label: fig-1
+#| fig-cap: More bills of penguins
+#| echo: false
+#| fig-width: 8
+#| fig-height: 4
 
 clean_data_degree |>
   ggplot(aes(x = degree)) +
   geom_bar(fill = "slateblue1") +
   theme_minimal() +
   labs(x = "Degree Obtained",
-       y = "Number of Participants",
-       title = "Degree obtained by participant")
+       y = "Number of Respondents",
+       title = "Degree obtained by respondents")
 ```
 
-Talk more about it.
+@fig-1 talk more about it.
 
-Also bills and their average (@fig-billssssss). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work.)
 
 ```{r}
-#| label: fig-billssssss
+#| label: fig-2
 #| fig-cap: More bills of penguins
 #| echo: false
 #| fig-width: 8
 #| fig-height: 4
 
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = "none") +
+clean_data_willingness |>
+  ggplot(aes(x = grnprice)) +
+  geom_bar(fill = "slateblue1") +
   theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
+  labs(x = "Willingness to donate",
+       y = "Number of respondents",
+       title = "Willingness to donate to environmental protection")
+```
+\newpage
+Talk way more about it. 
+
+```{r}
+#| label: fig-3
+#| fig-cap: More bills of penguins
+#| echo: false
+#| fig-width: 8
+#| fig-height: 4
+
+
+
+
 ```
 
+\newpage
 Talk way more about it. 
 
 
-
-# Model
-
-$$
-Pr(\theta | y) = \frac{Pr(y | \theta) Pr(\theta)}{Pr(y)}
-$$ {#eq-bayes}
-
-@eq-bayes seems useful, eh?
-
-Here's a dumb example of how to use some references: In paper we run our analysis in `R` [@citeR]. We also use the `tidyverse` which was written by @thereferencecanbewhatever If we were interested in baseball data then @citeLahman could be useful. 
-
-We can use maths by including latex between dollar signs, for instance $\theta$.
-
-
 # Results
+
+```{r}
+#| label: fig-4
+#| fig-cap: More bills of penguins
+#| echo: false
+#| fig-width: 8
+#| fig-height: 4
+
+degree_and_willingness <-
+  clean_data_degree |>
+  left_join(clean_data_willingness, by = join_by(id), suffix = c("Degree", "Willingness"))
+
+degree_and_willingness |>
+  ggplot(aes(x = degree, y = grnprice)) +
+  geom_jitter() +
+  theme_minimal() +
+  labs(x = "Degree Obtained by Respondents",
+       y = "Willingness to Pay Towards Environmental Protection",
+       title = "Respondents' Degree and Willingness to Pay Towards Environment")
+
+```
+\newpage
+Talk way more about it. 
+
+```{r}
+
+
+
+```
 
 # Discussion
 
