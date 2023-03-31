@@ -1,1736 +1,1736 @@
 id,grnprice
-6,5
-7,3
-8,2
-9,4
-13,5
-16,2
-17,2
-23,2
-25,2
-28,2
-31,2
-32,2
-36,4
-37,3
-38,2
-43,2
-46,2
-51,4
-54,2
-60,2
-62,3
-67,5
-69,3
-71,3
-77,2
-79,2
-82,2
-83,3
-84,5
-88,2
-92,3
-94,2
-95,2
-96,4
-98,5
-99,5
-101,4
-102,2
-104,4
-107,5
-108,2
-111,3
-114,3
-117,2
-118,2
-120,4
-121,2
-123,2
-124,2
-128,4
-131,2
-132,4
-135,2
-138,3
-142,2
-143,2
-144,3
-146,2
-147,2
-149,1
-151,2
-153,3
-155,4
-158,2
-159,2
-162,3
-165,3
-166,2
-168,4
-169,2
-172,2
-175,1
-176,1
-181,2
-184,5
-189,5
-192,5
-194,4
-202,2
-211,4
-214,3
-215,2
-216,2
-224,2
-225,4
-226,3
-230,3
-231,4
-232,3
-235,3
-236,4
-239,2
-242,2
-244,3
-253,2
-254,2
-255,4
-256,5
-258,2
-259,1
-261,3
-265,2
-266,5
-272,3
-273,2
-275,3
-278,4
-279,4
-284,2
-285,4
-286,3
-288,2
-294,5
-296,5
-298,3
-303,1
-305,3
-309,3
-312,3
-313,4
-314,4
-317,4
-320,2
-321,2
-323,2
-324,2
-328,2
-330,1
-333,2
-335,3
-336,1
-337,5
-338,2
-340,3
-341,3
-342,2
-343,2
-344,3
-346,2
-348,5
-350,4
-353,2
-354,4
-356,3
-357,2
-359,3
-361,5
-368,5
-369,3
-372,4
-373,2
-375,3
-379,5
-383,2
-385,4
-387,2
-389,4
-391,3
-396,3
-398,2
-399,2
-400,5
-405,2
-409,4
-415,3
-418,2
-422,2
-423,4
-427,3
-433,4
-434,2
-436,5
-437,4
-438,3
-441,5
-444,2
-446,2
-447,3
-448,1
-449,5
-452,4
-453,5
-455,3
-456,2
-457,2
-458,3
-460,3
-461,2
-463,3
-464,3
-468,2
-469,3
-470,2
-474,4
-477,3
-480,3
-482,4
-484,2
-486,3
-487,3
-488,1
-492,2
-494,2
-496,4
-501,2
-504,4
-505,2
-507,4
-510,2
-511,4
-513,4
-514,3
-515,3
-516,4
-517,2
-518,1
-523,3
-525,3
-526,3
-528,2
-529,4
-530,4
-531,2
-536,3
-537,2
-539,3
-540,5
-548,3
-549,2
-552,3
-553,3
-555,2
-559,3
-560,2
-562,3
-564,4
-572,3
-577,2
-581,1
-582,5
-586,4
-588,2
-591,3
-593,3
-595,4
-602,4
-604,2
-610,5
-611,3
-613,3
-615,4
-616,5
-618,4
-619,2
-622,4
-625,4
-626,3
-630,4
-632,2
-635,4
-636,3
-641,2
-648,5
-650,5
-652,2
-653,4
-657,5
-660,3
-661,3
-666,2
-669,2
-670,3
-675,2
-676,5
-678,5
-680,4
-682,4
-684,3
-691,3
-693,2
-694,3
-697,3
-700,5
-701,3
-704,3
-705,1
-710,4
-713,3
-714,3
-717,5
-720,1
-721,3
-723,1
-724,2
-727,2
-729,3
-733,5
-734,4
-735,2
-737,3
-738,1
-740,2
-741,3
-744,2
-748,2
-749,2
-751,3
-752,4
-753,5
-755,2
-756,5
-759,4
-761,2
-764,2
-766,1
-768,2
-769,1
-772,5
-774,4
-778,5
-779,2
-780,3
-784,4
-785,2
-788,2
-795,3
-796,4
-797,2
-799,3
-800,1
-801,5
-803,3
-804,2
-805,3
-806,3
-808,3
-812,3
-814,2
-815,3
-819,3
-821,1
-823,3
-824,3
-825,2
-827,2
-828,2
-831,4
-832,2
-833,5
-838,3
-839,5
-842,2
-843,4
-849,4
-850,5
-853,1
-855,3
-858,5
-859,5
-860,5
-861,2
-862,3
-863,5
-866,3
-871,3
-873,1
-874,3
-880,3
-881,2
-882,4
-884,2
-892,2
-895,3
-896,2
-898,4
-902,3
-904,2
-905,1
-906,2
-911,4
-914,3
-916,3
-919,2
-920,2
-921,1
-924,3
-926,2
-931,2
-932,5
-934,1
-939,2
-941,4
-944,3
-946,3
-947,2
-953,4
-954,1
-955,2
-960,3
-964,2
-969,2
-977,2
-982,3
-986,3
-988,2
-991,5
-992,3
-993,3
-995,3
-998,3
-999,2
-1000,4
-1007,2
-1008,5
-1011,3
-1015,5
-1018,2
-1019,1
-1023,3
-1028,1
-1029,1
-1030,2
-1039,2
-1043,2
-1044,2
-1048,2
-1049,4
-1050,5
-1052,2
-1055,2
-1056,2
-1057,2
-1059,3
-1061,2
-1062,1
-1065,2
-1066,3
-1068,2
-1071,4
-1072,3
-1080,1
-1081,4
-1082,3
-1085,4
-1086,3
-1087,3
-1088,3
-1090,3
-1091,4
-1093,2
-1096,3
-1100,2
-1102,3
-1106,5
-1107,4
-1108,3
-1110,2
-1115,2
-1117,2
-1122,1
-1123,2
-1128,2
-1129,2
-1130,2
-1131,3
-1134,2
-1135,1
-1136,2
-1138,4
-1140,2
-1149,2
-1150,2
-1151,2
-1152,2
-1154,2
-1158,1
-1162,3
-1163,3
-1164,4
-1165,2
-1168,5
-1169,4
-1172,1
-1176,4
-1177,4
-1178,2
-1181,3
-1183,3
-1186,2
-1188,2
-1191,3
-1192,3
-1193,2
-1195,2
-1197,3
-1199,1
-1200,3
-1201,2
-1206,2
-1207,4
-1212,4
-1215,2
-1222,2
-1224,3
-1228,4
-1230,3
-1235,4
-1236,1
-1237,3
-1238,3
-1244,4
-1245,5
-1248,2
-1250,4
-1252,4
-1253,3
-1256,2
-1259,1
-1260,2
-1261,2
-1265,5
-1268,2
-1272,2
-1273,2
-1280,3
-1283,3
-1285,2
-1287,1
-1289,3
-1290,4
-1294,4
-1295,1
-1297,4
-1299,2
-1303,2
-1304,2
-1306,3
-1307,4
-1308,2
-1312,5
-1315,2
-1316,3
-1317,2
-1318,2
-1319,3
-1322,3
-1323,2
-1325,5
-1326,4
-1327,2
-1332,2
-1334,2
-1336,4
-1338,3
-1339,3
-1344,3
-1346,3
-1347,2
-1348,3
-1349,3
-1350,4
-1357,5
-1361,3
-1363,2
-1368,2
-1370,3
-1371,4
-1376,1
-1382,5
-1384,5
-1385,3
-1387,4
-1388,2
-1394,5
-1398,3
-1401,4
-1402,2
-1406,3
-1409,2
-1410,5
-1411,5
-1413,2
-1417,2
-1418,4
-1420,2
-1421,5
-1427,1
-1429,5
-1431,2
-1434,1
-1435,2
-1437,2
-1438,3
-1442,2
-1447,5
-1448,4
-1451,1
-1453,2
-1457,4
-1460,2
-1463,4
-1466,3
-1470,2
-1474,4
-1477,4
-1479,1
-1480,4
-1484,3
-1485,2
-1489,3
-1490,2
-1491,2
-1495,3
-1498,3
-1504,2
-1506,2
-1513,3
-1514,3
-1519,2
-1521,4
-1523,2
-1524,5
-1526,4
-1531,4
-1535,4
-1537,2
-1538,5
-1539,3
-1541,3
-1544,3
-1550,5
-1553,2
-1554,2
-1559,3
-1560,2
-1564,5
-1565,4
-1566,4
-1568,5
-1569,1
-1571,2
-1572,2
-1573,4
-1574,3
-1576,5
-1577,2
-1580,3
-1581,2
-1582,4
-1585,3
-1592,4
-1594,4
-1595,4
-1607,4
-1608,1
-1612,4
-1614,4
-1619,2
-1621,3
-1623,5
-1625,4
-1627,2
-1636,3
-1639,3
-1641,2
-1643,1
-1647,3
-1652,3
-1653,4
-1655,5
-1657,3
-1661,3
-1667,2
-1669,2
-1672,5
-1673,2
-1681,1
-1683,2
-1684,1
-1686,4
-1687,2
-1692,2
-1696,3
-1704,4
-1707,4
-1708,2
-1711,2
-1712,2
-1716,2
-1717,4
-1718,2
-1720,5
-1722,4
-1726,2
-1727,2
-1732,5
-1734,2
-1736,2
-1738,4
-1739,5
-1742,3
-1743,3
-1744,4
-1745,3
-1748,2
-1750,4
-1752,5
-1755,3
-1756,4
-1762,2
-1763,3
-1766,5
-1770,2
-1773,4
-1777,3
-1778,2
-1782,4
-1784,1
-1785,3
-1787,4
-1792,1
-1795,5
-1798,4
-1806,2
-1808,5
-1809,1
-1812,2
-1818,3
-1820,4
-1821,2
-1822,3
-1823,3
-1824,2
-1826,2
-1827,5
-1828,5
-1829,1
-1833,3
-1835,2
-1837,3
-1838,3
-1839,2
-1840,4
-1841,5
-1844,3
-1845,1
-1850,5
-1852,1
-1853,4
-1855,5
-1856,1
-1857,1
-1860,3
-1861,3
-1864,2
-1865,2
-1869,4
-1872,3
-1877,3
-1879,4
-1881,4
-1883,3
-1884,2
-1887,4
-1888,2
-1889,3
-1891,1
-1895,2
-1896,2
-1899,1
-1901,1
-1908,4
-1910,2
-1914,2
-1915,4
-1917,5
-1918,2
-1923,2
-1924,3
-1927,2
-1928,5
-1930,1
-1933,2
-1935,1
-1936,3
-1941,4
-1942,3
-1944,2
-1949,2
-1950,3
-1954,5
-1957,2
-1960,3
-1961,3
-1962,3
-1964,3
-1970,2
-1974,2
-1978,4
-1980,4
-1985,2
-1986,2
-1988,2
-1990,4
-1995,3
-1996,4
-1998,1
-1999,2
-2000,3
-2003,3
-2006,3
-2008,2
-2010,5
-2011,5
-2019,2
-2020,3
-2023,5
-2025,2
-2027,2
-2028,3
-2029,4
-2030,2
-2033,2
-2034,1
-2035,2
-2037,5
-2038,3
-2042,1
-2046,3
-2049,4
-2051,2
-2052,2
-2053,2
-2056,3
-2057,4
-2058,4
-2060,4
-2063,4
-2064,4
-2065,1
-2067,4
-2068,4
-2072,2
-2075,3
-2076,2
-2077,2
-2078,2
-2080,3
-2089,4
-2090,3
-2093,3
-2094,2
-2095,2
-2097,3
-2099,2
-2100,2
-2103,2
-2104,2
-2106,3
-2108,4
-2110,2
-2112,4
-2118,4
-2119,1
-2124,2
-2125,3
-2135,3
-2140,3
-2142,4
-2144,5
-2147,2
-2151,3
-2156,5
-2157,5
-2158,4
-2163,2
-2165,5
-2170,2
-2172,2
-2176,1
-2177,3
-2178,2
-2179,5
-2182,2
-2183,3
-2184,4
-2185,3
-2189,5
-2190,2
-2194,2
-2195,2
-2197,2
-2200,4
-2204,5
-2207,5
-2209,5
-2212,2
-2215,2
-2219,3
-2221,5
-2223,2
-2229,3
-2232,4
-2233,3
-2234,3
-2237,1
-2241,2
-2246,2
-2259,2
-2262,4
-2264,4
-2266,5
-2267,3
-2268,2
-2269,4
-2270,3
-2273,2
-2278,2
-2279,3
-2290,1
-2292,2
-2295,2
-2304,2
-2305,3
-2306,2
-2309,1
-2312,4
-2314,2
-2317,2
-2319,4
-2320,4
-2321,2
-2327,3
-2328,2
-2330,4
-2335,4
-2336,3
-2342,4
-2343,3
-2350,5
-2351,4
-2352,2
-2353,5
-2355,4
-2357,3
-2364,5
-2367,1
-2369,2
-2370,1
-2377,2
-2378,2
-2380,2
-2381,2
-2382,4
-2383,2
-2386,5
-2391,2
-2394,3
-2396,4
-2397,2
-2398,2
-2399,3
-2402,3
-2406,2
-2407,3
-2408,2
-2412,2
-2417,2
-2421,3
-2425,2
-2426,3
-2433,2
-2434,2
-2435,2
-2436,2
-2437,2
-2441,2
-2448,2
-2454,2
-2460,3
-2462,2
-2463,2
-2466,2
-2467,3
-2468,3
-2470,4
-2474,5
-2478,3
-2480,3
-2481,1
-2489,2
-2494,4
-2495,3
-2498,2
-2501,3
-2502,2
-2503,3
-2504,2
-2515,2
-2518,3
-2520,2
-2521,4
-2524,3
-2526,3
-2528,4
-2533,5
-2536,2
-2538,5
-2541,5
-2543,2
-2544,2
-2556,3
-2557,2
-2558,3
-2560,2
-2561,2
-2562,2
-2566,4
-2567,2
-2569,5
-2571,2
-2575,3
-2577,3
-2579,3
-2581,1
-2585,1
-2588,2
-2594,2
-2597,1
-2598,2
-2599,1
-2608,2
-2610,3
-2614,2
-2617,2
-2619,5
-2620,5
-2623,4
-2627,5
-2629,2
-2630,2
-2634,2
-2635,2
-2639,1
-2643,3
-2646,1
-2651,5
-2653,5
-2655,3
-2658,3
-2661,3
-2664,1
-2665,3
-2668,4
-2669,3
-2674,3
-2675,2
-2676,4
-2677,3
-2679,4
-2684,2
-2686,2
-2687,2
-2688,2
-2692,2
-2697,1
-2701,4
-2702,3
-2705,3
-2709,2
-2712,4
-2716,4
-2717,2
-2719,2
-2726,3
-2729,3
-2733,3
-2736,3
-2737,5
-2739,3
-2740,5
-2741,3
-2742,2
-2744,3
-2746,3
-2747,2
-2749,2
-2752,3
-2753,1
-2756,2
-2757,3
-2758,4
-2759,4
-2761,2
-2766,3
-2769,4
-2771,2
-2773,5
-2774,3
-2775,5
-2781,2
-2782,5
-2783,4
-2785,5
-2787,3
-2791,5
-2793,2
-2794,4
-2799,4
-2801,3
-2804,1
-2806,2
-2807,2
-2810,3
-2811,3
-2814,3
-2820,2
-2822,3
-2823,5
-2824,2
-2827,1
-2829,5
-2835,4
-2836,2
-2837,4
-2839,4
-2843,3
-2844,4
-2847,2
-2849,2
-2853,2
-2859,5
-2860,3
-2862,3
-2864,3
-2867,2
-2869,2
-2870,2
-2872,2
-2873,2
-2874,2
-2875,4
-2876,4
-2877,2
-2880,2
-2884,2
-2886,4
-2889,2
-2892,4
-2897,3
-2901,2
-2902,2
-2903,1
-2908,2
-2910,3
-2913,4
-2918,2
-2920,2
-2925,3
-2927,5
-2929,3
-2934,3
-2941,5
-2942,1
-2944,4
-2945,5
-2949,2
-2955,2
-2959,5
-2966,5
-2967,4
-2970,3
-2972,4
-2973,4
-2978,3
-2979,2
-2984,2
-2985,4
-2986,2
-2987,4
-2988,4
-2989,3
-2992,4
-2994,2
-2996,5
-2998,5
-3001,3
-3002,2
-3005,2
-3009,4
-3012,3
-3013,4
-3019,2
-3020,1
-3021,4
-3023,5
-3026,5
-3027,2
-3028,4
-3029,2
-3031,2
-3033,2
-3034,3
-3035,5
-3036,3
-3037,5
-3043,2
-3047,2
-3050,1
-3055,2
-3057,2
-3063,3
-3065,4
-3067,4
-3070,3
-3072,2
-3073,2
-3075,2
-3078,2
-3083,3
-3084,3
-3088,4
-3090,2
-3091,4
-3092,2
-3094,3
-3095,3
-3097,5
-3100,2
-3104,2
-3108,2
-3114,3
-3116,5
-3117,4
-3119,3
-3121,4
-3122,5
-3125,4
-3128,4
-3130,5
-3131,2
-3132,2
-3140,4
-3141,3
-3145,4
-3147,3
-3149,5
-3151,4
-3153,2
-3154,2
-3155,1
-3159,3
-3161,4
-3163,5
-3164,2
-3166,2
-3173,3
-3174,3
-3180,3
-3182,1
-3192,4
-3195,1
-3197,5
-3200,1
-3201,4
-3202,4
-3203,1
-3204,2
-3206,2
-3207,4
-3213,2
-3214,4
-3215,4
-3216,2
-3217,3
-3219,2
-3221,4
-3222,3
-3223,3
-3224,3
-3225,5
-3228,5
-3229,2
-3235,3
-3237,1
-3238,2
-3242,3
-3244,4
-3246,2
-3255,5
-3256,3
-3257,2
-3260,5
-3262,2
-3265,4
-3266,2
-3267,1
-3269,2
-3271,2
-3272,3
-3274,2
-3275,1
-3281,2
-3284,5
-3286,1
-3287,2
-3289,3
-3299,1
-3308,4
-3314,3
-3315,2
-3318,3
-3321,3
-3322,2
-3325,2
-3326,4
-3328,2
-3333,1
-3335,3
-3338,4
-3339,2
-3344,2
-3348,2
-3349,3
-3351,2
-3357,3
-3360,2
-3361,3
-3363,5
-3365,3
-3368,2
-3371,3
-3372,3
-3373,1
-3378,2
-3380,3
-3382,3
-3383,3
-3385,5
-3392,2
-3393,3
-3395,1
-3398,5
-3401,3
-3402,2
-3408,3
-3410,4
-3412,4
-3413,2
-3414,4
-3417,3
-3421,2
-3423,2
-3424,2
-3425,3
-3426,3
-3435,4
-3438,3
-3440,3
-3446,4
-3447,3
-3448,1
-3449,3
-3455,2
-3456,4
-3458,4
-3465,1
-3466,2
-3477,3
-3481,3
-3483,3
-3487,2
-3488,3
-3491,5
-3492,4
-3493,1
-3494,5
-3495,3
-3497,4
-3502,2
-3503,3
-3505,3
-3508,2
-3511,4
-3512,3
-3515,1
-3516,2
-3520,2
-3521,2
-3522,2
-3525,5
-3526,3
-3532,1
-3533,3
-3535,4
-3537,1
-3544,5
-3545,3
-3549,2
-3551,2
-3552,1
-3553,2
-3554,3
-3559,3
-3560,3
-3561,1
-3563,2
-3566,1
-3571,1
-3572,2
-3578,3
-3579,3
-3580,3
-3581,4
-3583,2
-3591,3
-3596,3
-3600,4
-3602,3
-3603,2
-3604,4
-3608,3
-3610,2
-3612,4
-3613,2
-3615,2
-3616,2
-3618,2
-3619,3
-3623,1
-3626,4
-3630,4
-3632,4
-3635,4
-3639,3
-3641,2
-3643,2
-3646,3
-3649,3
-3650,4
-3651,3
-3652,4
-3653,5
-3657,4
-3658,2
-3659,2
-3664,3
-3667,2
-3668,4
-3674,4
-3677,2
-3678,2
-3679,2
-3680,3
-3681,4
-3686,3
-3688,2
-3691,2
-3692,5
-3694,1
-3696,5
-3698,3
-3700,1
-3702,4
-3703,2
-3708,2
-3709,5
-3712,2
-3721,4
-3726,2
-3727,4
-3728,4
-3729,3
-3731,2
-3735,4
-3738,3
-3740,1
-3741,5
-3747,2
-3755,3
-3756,4
-3757,4
-3760,2
-3761,3
-3765,2
-3766,4
-3768,1
-3769,5
-3771,2
-3777,5
-3779,5
-3783,5
-3788,4
-3790,2
-3793,3
-3795,5
-3798,3
-3801,3
-3806,3
-3809,3
-3810,3
-3812,5
-3813,2
-3814,4
-3819,2
-3821,1
-3822,4
-3824,2
-3825,4
-3829,3
-3843,1
-3844,4
-3846,5
-3848,4
-3849,1
-3850,3
-3852,2
-3856,2
-3859,2
-3864,3
-3871,3
-3874,3
-3875,2
-3876,2
-3881,5
-3892,2
-3895,2
-3896,3
-3902,2
-3908,1
-3912,4
-3915,2
-3916,2
-3918,4
-3920,2
-3921,2
-3924,3
-3925,2
-3930,3
-3932,3
-3934,2
-3936,4
-3937,2
-3943,2
-3945,3
-3947,2
-3950,4
-3952,3
-3953,2
-3955,2
-3956,2
-3972,5
-3977,2
-3978,4
-3981,3
-3982,2
-3985,4
-3988,4
-3992,2
-3996,1
-3997,3
-4001,5
-4003,4
-4007,2
-4013,5
-4020,2
-4021,5
-4026,4
-4031,5
-4038,5
-4039,5
-4047,3
-4049,4
-4052,3
-4053,3
-4055,5
-4056,2
-4058,2
-4060,2
-4061,3
-4062,2
-4064,4
-4069,4
-4072,3
-4078,3
-4082,4
-4083,4
-4090,2
-4093,5
-4095,4
-4097,2
-4098,5
-4101,2
-4108,4
-4109,4
-4113,3
-4114,3
-4116,2
-4117,3
-4118,5
-4122,4
-4128,3
-4130,4
-4135,5
-4137,2
-4139,4
-4143,3
-4145,5
-4147,4
-4148,2
-4150,3
-4154,4
-4157,3
-4159,3
-4160,2
-4164,3
-4166,2
-4169,1
-4172,2
-4173,3
-4176,2
-4179,4
-4184,3
-4185,5
-4187,2
-4190,3
-4191,3
-4193,2
-4194,2
-4195,4
-4201,4
-4208,5
-4211,3
-4215,2
-4219,3
-4225,3
-4228,4
-4235,5
-4236,5
-4237,1
-4239,1
-4240,2
-4242,4
-4244,2
-4247,2
-4249,1
-4250,4
-4252,3
-4257,2
-4266,2
-4267,3
-4268,2
-4269,2
-4270,1
-4271,2
-4272,4
-4277,3
-4280,3
-4283,4
-4287,2
-4288,5
-4292,4
-4293,5
-4295,2
-4297,5
-4301,2
-4303,1
-4304,5
-4308,2
-4309,2
-4311,2
-4313,1
-4314,2
-4315,2
-4316,4
-4319,4
-4321,4
-4323,4
-4324,3
-4326,5
-4328,3
-4333,5
-4334,3
-4338,1
-4341,3
-4345,4
-4346,3
-4347,2
-4348,3
-4351,2
-4352,4
-4353,4
-4354,2
-4355,5
-4360,5
-4367,4
-4368,4
-4369,2
-4370,5
-4373,3
-4378,3
-4382,3
-4389,5
-4390,2
-4393,3
-4395,1
-4396,5
-4399,5
-4402,3
-4407,2
-4411,1
-4414,4
-4416,2
-4419,2
-4428,5
-4429,5
-4432,2
-4437,4
-4439,2
-4441,2
-4442,4
-4443,2
-4445,1
-4450,3
-4455,3
-4456,3
-4457,2
-4458,2
-4459,2
-4460,3
-4462,2
-4463,3
-4467,3
-4468,4
-4470,2
+6,Very Unwilling
+7,Neutral
+8,Fairly Willing
+9,Fairly Unwilling
+13,Very Unwilling
+16,Fairly Willing
+17,Fairly Willing
+23,Fairly Willing
+25,Fairly Willing
+28,Fairly Willing
+31,Fairly Willing
+32,Fairly Willing
+36,Fairly Unwilling
+37,Neutral
+38,Fairly Willing
+43,Fairly Willing
+46,Fairly Willing
+51,Fairly Unwilling
+54,Fairly Willing
+60,Fairly Willing
+62,Neutral
+67,Very Unwilling
+69,Neutral
+71,Neutral
+77,Fairly Willing
+79,Fairly Willing
+82,Fairly Willing
+83,Neutral
+84,Very Unwilling
+88,Fairly Willing
+92,Neutral
+94,Fairly Willing
+95,Fairly Willing
+96,Fairly Unwilling
+98,Very Unwilling
+99,Very Unwilling
+101,Fairly Unwilling
+102,Fairly Willing
+104,Fairly Unwilling
+107,Very Unwilling
+108,Fairly Willing
+111,Neutral
+114,Neutral
+117,Fairly Willing
+118,Fairly Willing
+120,Fairly Unwilling
+121,Fairly Willing
+123,Fairly Willing
+124,Fairly Willing
+128,Fairly Unwilling
+131,Fairly Willing
+132,Fairly Unwilling
+135,Fairly Willing
+138,Neutral
+142,Fairly Willing
+143,Fairly Willing
+144,Neutral
+146,Fairly Willing
+147,Fairly Willing
+149,Very Willing
+151,Fairly Willing
+153,Neutral
+155,Fairly Unwilling
+158,Fairly Willing
+159,Fairly Willing
+162,Neutral
+165,Neutral
+166,Fairly Willing
+168,Fairly Unwilling
+169,Fairly Willing
+172,Fairly Willing
+175,Very Willing
+176,Very Willing
+181,Fairly Willing
+184,Very Unwilling
+189,Very Unwilling
+192,Very Unwilling
+194,Fairly Unwilling
+202,Fairly Willing
+211,Fairly Unwilling
+214,Neutral
+215,Fairly Willing
+216,Fairly Willing
+224,Fairly Willing
+225,Fairly Unwilling
+226,Neutral
+230,Neutral
+231,Fairly Unwilling
+232,Neutral
+235,Neutral
+236,Fairly Unwilling
+239,Fairly Willing
+242,Fairly Willing
+244,Neutral
+253,Fairly Willing
+254,Fairly Willing
+255,Fairly Unwilling
+256,Very Unwilling
+258,Fairly Willing
+259,Very Willing
+261,Neutral
+265,Fairly Willing
+266,Very Unwilling
+272,Neutral
+273,Fairly Willing
+275,Neutral
+278,Fairly Unwilling
+279,Fairly Unwilling
+284,Fairly Willing
+285,Fairly Unwilling
+286,Neutral
+288,Fairly Willing
+294,Very Unwilling
+296,Very Unwilling
+298,Neutral
+303,Very Willing
+305,Neutral
+309,Neutral
+312,Neutral
+313,Fairly Unwilling
+314,Fairly Unwilling
+317,Fairly Unwilling
+320,Fairly Willing
+321,Fairly Willing
+323,Fairly Willing
+324,Fairly Willing
+328,Fairly Willing
+330,Very Willing
+333,Fairly Willing
+335,Neutral
+336,Very Willing
+337,Very Unwilling
+338,Fairly Willing
+340,Neutral
+341,Neutral
+342,Fairly Willing
+343,Fairly Willing
+344,Neutral
+346,Fairly Willing
+348,Very Unwilling
+350,Fairly Unwilling
+353,Fairly Willing
+354,Fairly Unwilling
+356,Neutral
+357,Fairly Willing
+359,Neutral
+361,Very Unwilling
+368,Very Unwilling
+369,Neutral
+372,Fairly Unwilling
+373,Fairly Willing
+375,Neutral
+379,Very Unwilling
+383,Fairly Willing
+385,Fairly Unwilling
+387,Fairly Willing
+389,Fairly Unwilling
+391,Neutral
+396,Neutral
+398,Fairly Willing
+399,Fairly Willing
+400,Very Unwilling
+405,Fairly Willing
+409,Fairly Unwilling
+415,Neutral
+418,Fairly Willing
+422,Fairly Willing
+423,Fairly Unwilling
+427,Neutral
+433,Fairly Unwilling
+434,Fairly Willing
+436,Very Unwilling
+437,Fairly Unwilling
+438,Neutral
+441,Very Unwilling
+444,Fairly Willing
+446,Fairly Willing
+447,Neutral
+448,Very Willing
+449,Very Unwilling
+452,Fairly Unwilling
+453,Very Unwilling
+455,Neutral
+456,Fairly Willing
+457,Fairly Willing
+458,Neutral
+460,Neutral
+461,Fairly Willing
+463,Neutral
+464,Neutral
+468,Fairly Willing
+469,Neutral
+470,Fairly Willing
+474,Fairly Unwilling
+477,Neutral
+480,Neutral
+482,Fairly Unwilling
+484,Fairly Willing
+486,Neutral
+487,Neutral
+488,Very Willing
+492,Fairly Willing
+494,Fairly Willing
+496,Fairly Unwilling
+501,Fairly Willing
+504,Fairly Unwilling
+505,Fairly Willing
+507,Fairly Unwilling
+510,Fairly Willing
+511,Fairly Unwilling
+513,Fairly Unwilling
+514,Neutral
+515,Neutral
+516,Fairly Unwilling
+517,Fairly Willing
+518,Very Willing
+523,Neutral
+525,Neutral
+526,Neutral
+528,Fairly Willing
+529,Fairly Unwilling
+530,Fairly Unwilling
+531,Fairly Willing
+536,Neutral
+537,Fairly Willing
+539,Neutral
+540,Very Unwilling
+548,Neutral
+549,Fairly Willing
+552,Neutral
+553,Neutral
+555,Fairly Willing
+559,Neutral
+560,Fairly Willing
+562,Neutral
+564,Fairly Unwilling
+572,Neutral
+577,Fairly Willing
+581,Very Willing
+582,Very Unwilling
+586,Fairly Unwilling
+588,Fairly Willing
+591,Neutral
+593,Neutral
+595,Fairly Unwilling
+602,Fairly Unwilling
+604,Fairly Willing
+610,Very Unwilling
+611,Neutral
+613,Neutral
+615,Fairly Unwilling
+616,Very Unwilling
+618,Fairly Unwilling
+619,Fairly Willing
+622,Fairly Unwilling
+625,Fairly Unwilling
+626,Neutral
+630,Fairly Unwilling
+632,Fairly Willing
+635,Fairly Unwilling
+636,Neutral
+641,Fairly Willing
+648,Very Unwilling
+650,Very Unwilling
+652,Fairly Willing
+653,Fairly Unwilling
+657,Very Unwilling
+660,Neutral
+661,Neutral
+666,Fairly Willing
+669,Fairly Willing
+670,Neutral
+675,Fairly Willing
+676,Very Unwilling
+678,Very Unwilling
+680,Fairly Unwilling
+682,Fairly Unwilling
+684,Neutral
+691,Neutral
+693,Fairly Willing
+694,Neutral
+697,Neutral
+700,Very Unwilling
+701,Neutral
+704,Neutral
+705,Very Willing
+710,Fairly Unwilling
+713,Neutral
+714,Neutral
+717,Very Unwilling
+720,Very Willing
+721,Neutral
+723,Very Willing
+724,Fairly Willing
+727,Fairly Willing
+729,Neutral
+733,Very Unwilling
+734,Fairly Unwilling
+735,Fairly Willing
+737,Neutral
+738,Very Willing
+740,Fairly Willing
+741,Neutral
+744,Fairly Willing
+748,Fairly Willing
+749,Fairly Willing
+751,Neutral
+752,Fairly Unwilling
+753,Very Unwilling
+755,Fairly Willing
+756,Very Unwilling
+759,Fairly Unwilling
+761,Fairly Willing
+764,Fairly Willing
+766,Very Willing
+768,Fairly Willing
+769,Very Willing
+772,Very Unwilling
+774,Fairly Unwilling
+778,Very Unwilling
+779,Fairly Willing
+780,Neutral
+784,Fairly Unwilling
+785,Fairly Willing
+788,Fairly Willing
+795,Neutral
+796,Fairly Unwilling
+797,Fairly Willing
+799,Neutral
+800,Very Willing
+801,Very Unwilling
+803,Neutral
+804,Fairly Willing
+805,Neutral
+806,Neutral
+808,Neutral
+812,Neutral
+814,Fairly Willing
+815,Neutral
+819,Neutral
+821,Very Willing
+823,Neutral
+824,Neutral
+825,Fairly Willing
+827,Fairly Willing
+828,Fairly Willing
+831,Fairly Unwilling
+832,Fairly Willing
+833,Very Unwilling
+838,Neutral
+839,Very Unwilling
+842,Fairly Willing
+843,Fairly Unwilling
+849,Fairly Unwilling
+850,Very Unwilling
+853,Very Willing
+855,Neutral
+858,Very Unwilling
+859,Very Unwilling
+860,Very Unwilling
+861,Fairly Willing
+862,Neutral
+863,Very Unwilling
+866,Neutral
+871,Neutral
+873,Very Willing
+874,Neutral
+880,Neutral
+881,Fairly Willing
+882,Fairly Unwilling
+884,Fairly Willing
+892,Fairly Willing
+895,Neutral
+896,Fairly Willing
+898,Fairly Unwilling
+902,Neutral
+904,Fairly Willing
+905,Very Willing
+906,Fairly Willing
+911,Fairly Unwilling
+914,Neutral
+916,Neutral
+919,Fairly Willing
+920,Fairly Willing
+921,Very Willing
+924,Neutral
+926,Fairly Willing
+931,Fairly Willing
+932,Very Unwilling
+934,Very Willing
+939,Fairly Willing
+941,Fairly Unwilling
+944,Neutral
+946,Neutral
+947,Fairly Willing
+953,Fairly Unwilling
+954,Very Willing
+955,Fairly Willing
+960,Neutral
+964,Fairly Willing
+969,Fairly Willing
+977,Fairly Willing
+982,Neutral
+986,Neutral
+988,Fairly Willing
+991,Very Unwilling
+992,Neutral
+993,Neutral
+995,Neutral
+998,Neutral
+999,Fairly Willing
+1000,Fairly Unwilling
+1007,Fairly Willing
+1008,Very Unwilling
+1011,Neutral
+1015,Very Unwilling
+1018,Fairly Willing
+1019,Very Willing
+1023,Neutral
+1028,Very Willing
+1029,Very Willing
+1030,Fairly Willing
+1039,Fairly Willing
+1043,Fairly Willing
+1044,Fairly Willing
+1048,Fairly Willing
+1049,Fairly Unwilling
+1050,Very Unwilling
+1052,Fairly Willing
+1055,Fairly Willing
+1056,Fairly Willing
+1057,Fairly Willing
+1059,Neutral
+1061,Fairly Willing
+1062,Very Willing
+1065,Fairly Willing
+1066,Neutral
+1068,Fairly Willing
+1071,Fairly Unwilling
+1072,Neutral
+1080,Very Willing
+1081,Fairly Unwilling
+1082,Neutral
+1085,Fairly Unwilling
+1086,Neutral
+1087,Neutral
+1088,Neutral
+1090,Neutral
+1091,Fairly Unwilling
+1093,Fairly Willing
+1096,Neutral
+1100,Fairly Willing
+1102,Neutral
+1106,Very Unwilling
+1107,Fairly Unwilling
+1108,Neutral
+1110,Fairly Willing
+1115,Fairly Willing
+1117,Fairly Willing
+1122,Very Willing
+1123,Fairly Willing
+1128,Fairly Willing
+1129,Fairly Willing
+1130,Fairly Willing
+1131,Neutral
+1134,Fairly Willing
+1135,Very Willing
+1136,Fairly Willing
+1138,Fairly Unwilling
+1140,Fairly Willing
+1149,Fairly Willing
+1150,Fairly Willing
+1151,Fairly Willing
+1152,Fairly Willing
+1154,Fairly Willing
+1158,Very Willing
+1162,Neutral
+1163,Neutral
+1164,Fairly Unwilling
+1165,Fairly Willing
+1168,Very Unwilling
+1169,Fairly Unwilling
+1172,Very Willing
+1176,Fairly Unwilling
+1177,Fairly Unwilling
+1178,Fairly Willing
+1181,Neutral
+1183,Neutral
+1186,Fairly Willing
+1188,Fairly Willing
+1191,Neutral
+1192,Neutral
+1193,Fairly Willing
+1195,Fairly Willing
+1197,Neutral
+1199,Very Willing
+1200,Neutral
+1201,Fairly Willing
+1206,Fairly Willing
+1207,Fairly Unwilling
+1212,Fairly Unwilling
+1215,Fairly Willing
+1222,Fairly Willing
+1224,Neutral
+1228,Fairly Unwilling
+1230,Neutral
+1235,Fairly Unwilling
+1236,Very Willing
+1237,Neutral
+1238,Neutral
+1244,Fairly Unwilling
+1245,Very Unwilling
+1248,Fairly Willing
+1250,Fairly Unwilling
+1252,Fairly Unwilling
+1253,Neutral
+1256,Fairly Willing
+1259,Very Willing
+1260,Fairly Willing
+1261,Fairly Willing
+1265,Very Unwilling
+1268,Fairly Willing
+1272,Fairly Willing
+1273,Fairly Willing
+1280,Neutral
+1283,Neutral
+1285,Fairly Willing
+1287,Very Willing
+1289,Neutral
+1290,Fairly Unwilling
+1294,Fairly Unwilling
+1295,Very Willing
+1297,Fairly Unwilling
+1299,Fairly Willing
+1303,Fairly Willing
+1304,Fairly Willing
+1306,Neutral
+1307,Fairly Unwilling
+1308,Fairly Willing
+1312,Very Unwilling
+1315,Fairly Willing
+1316,Neutral
+1317,Fairly Willing
+1318,Fairly Willing
+1319,Neutral
+1322,Neutral
+1323,Fairly Willing
+1325,Very Unwilling
+1326,Fairly Unwilling
+1327,Fairly Willing
+1332,Fairly Willing
+1334,Fairly Willing
+1336,Fairly Unwilling
+1338,Neutral
+1339,Neutral
+1344,Neutral
+1346,Neutral
+1347,Fairly Willing
+1348,Neutral
+1349,Neutral
+1350,Fairly Unwilling
+1357,Very Unwilling
+1361,Neutral
+1363,Fairly Willing
+1368,Fairly Willing
+1370,Neutral
+1371,Fairly Unwilling
+1376,Very Willing
+1382,Very Unwilling
+1384,Very Unwilling
+1385,Neutral
+1387,Fairly Unwilling
+1388,Fairly Willing
+1394,Very Unwilling
+1398,Neutral
+1401,Fairly Unwilling
+1402,Fairly Willing
+1406,Neutral
+1409,Fairly Willing
+1410,Very Unwilling
+1411,Very Unwilling
+1413,Fairly Willing
+1417,Fairly Willing
+1418,Fairly Unwilling
+1420,Fairly Willing
+1421,Very Unwilling
+1427,Very Willing
+1429,Very Unwilling
+1431,Fairly Willing
+1434,Very Willing
+1435,Fairly Willing
+1437,Fairly Willing
+1438,Neutral
+1442,Fairly Willing
+1447,Very Unwilling
+1448,Fairly Unwilling
+1451,Very Willing
+1453,Fairly Willing
+1457,Fairly Unwilling
+1460,Fairly Willing
+1463,Fairly Unwilling
+1466,Neutral
+1470,Fairly Willing
+1474,Fairly Unwilling
+1477,Fairly Unwilling
+1479,Very Willing
+1480,Fairly Unwilling
+1484,Neutral
+1485,Fairly Willing
+1489,Neutral
+1490,Fairly Willing
+1491,Fairly Willing
+1495,Neutral
+1498,Neutral
+1504,Fairly Willing
+1506,Fairly Willing
+1513,Neutral
+1514,Neutral
+1519,Fairly Willing
+1521,Fairly Unwilling
+1523,Fairly Willing
+1524,Very Unwilling
+1526,Fairly Unwilling
+1531,Fairly Unwilling
+1535,Fairly Unwilling
+1537,Fairly Willing
+1538,Very Unwilling
+1539,Neutral
+1541,Neutral
+1544,Neutral
+1550,Very Unwilling
+1553,Fairly Willing
+1554,Fairly Willing
+1559,Neutral
+1560,Fairly Willing
+1564,Very Unwilling
+1565,Fairly Unwilling
+1566,Fairly Unwilling
+1568,Very Unwilling
+1569,Very Willing
+1571,Fairly Willing
+1572,Fairly Willing
+1573,Fairly Unwilling
+1574,Neutral
+1576,Very Unwilling
+1577,Fairly Willing
+1580,Neutral
+1581,Fairly Willing
+1582,Fairly Unwilling
+1585,Neutral
+1592,Fairly Unwilling
+1594,Fairly Unwilling
+1595,Fairly Unwilling
+1607,Fairly Unwilling
+1608,Very Willing
+1612,Fairly Unwilling
+1614,Fairly Unwilling
+1619,Fairly Willing
+1621,Neutral
+1623,Very Unwilling
+1625,Fairly Unwilling
+1627,Fairly Willing
+1636,Neutral
+1639,Neutral
+1641,Fairly Willing
+1643,Very Willing
+1647,Neutral
+1652,Neutral
+1653,Fairly Unwilling
+1655,Very Unwilling
+1657,Neutral
+1661,Neutral
+1667,Fairly Willing
+1669,Fairly Willing
+1672,Very Unwilling
+1673,Fairly Willing
+1681,Very Willing
+1683,Fairly Willing
+1684,Very Willing
+1686,Fairly Unwilling
+1687,Fairly Willing
+1692,Fairly Willing
+1696,Neutral
+1704,Fairly Unwilling
+1707,Fairly Unwilling
+1708,Fairly Willing
+1711,Fairly Willing
+1712,Fairly Willing
+1716,Fairly Willing
+1717,Fairly Unwilling
+1718,Fairly Willing
+1720,Very Unwilling
+1722,Fairly Unwilling
+1726,Fairly Willing
+1727,Fairly Willing
+1732,Very Unwilling
+1734,Fairly Willing
+1736,Fairly Willing
+1738,Fairly Unwilling
+1739,Very Unwilling
+1742,Neutral
+1743,Neutral
+1744,Fairly Unwilling
+1745,Neutral
+1748,Fairly Willing
+1750,Fairly Unwilling
+1752,Very Unwilling
+1755,Neutral
+1756,Fairly Unwilling
+1762,Fairly Willing
+1763,Neutral
+1766,Very Unwilling
+1770,Fairly Willing
+1773,Fairly Unwilling
+1777,Neutral
+1778,Fairly Willing
+1782,Fairly Unwilling
+1784,Very Willing
+1785,Neutral
+1787,Fairly Unwilling
+1792,Very Willing
+1795,Very Unwilling
+1798,Fairly Unwilling
+1806,Fairly Willing
+1808,Very Unwilling
+1809,Very Willing
+1812,Fairly Willing
+1818,Neutral
+1820,Fairly Unwilling
+1821,Fairly Willing
+1822,Neutral
+1823,Neutral
+1824,Fairly Willing
+1826,Fairly Willing
+1827,Very Unwilling
+1828,Very Unwilling
+1829,Very Willing
+1833,Neutral
+1835,Fairly Willing
+1837,Neutral
+1838,Neutral
+1839,Fairly Willing
+1840,Fairly Unwilling
+1841,Very Unwilling
+1844,Neutral
+1845,Very Willing
+1850,Very Unwilling
+1852,Very Willing
+1853,Fairly Unwilling
+1855,Very Unwilling
+1856,Very Willing
+1857,Very Willing
+1860,Neutral
+1861,Neutral
+1864,Fairly Willing
+1865,Fairly Willing
+1869,Fairly Unwilling
+1872,Neutral
+1877,Neutral
+1879,Fairly Unwilling
+1881,Fairly Unwilling
+1883,Neutral
+1884,Fairly Willing
+1887,Fairly Unwilling
+1888,Fairly Willing
+1889,Neutral
+1891,Very Willing
+1895,Fairly Willing
+1896,Fairly Willing
+1899,Very Willing
+1901,Very Willing
+1908,Fairly Unwilling
+1910,Fairly Willing
+1914,Fairly Willing
+1915,Fairly Unwilling
+1917,Very Unwilling
+1918,Fairly Willing
+1923,Fairly Willing
+1924,Neutral
+1927,Fairly Willing
+1928,Very Unwilling
+1930,Very Willing
+1933,Fairly Willing
+1935,Very Willing
+1936,Neutral
+1941,Fairly Unwilling
+1942,Neutral
+1944,Fairly Willing
+1949,Fairly Willing
+1950,Neutral
+1954,Very Unwilling
+1957,Fairly Willing
+1960,Neutral
+1961,Neutral
+1962,Neutral
+1964,Neutral
+1970,Fairly Willing
+1974,Fairly Willing
+1978,Fairly Unwilling
+1980,Fairly Unwilling
+1985,Fairly Willing
+1986,Fairly Willing
+1988,Fairly Willing
+1990,Fairly Unwilling
+1995,Neutral
+1996,Fairly Unwilling
+1998,Very Willing
+1999,Fairly Willing
+2000,Neutral
+2003,Neutral
+2006,Neutral
+2008,Fairly Willing
+2010,Very Unwilling
+2011,Very Unwilling
+2019,Fairly Willing
+2020,Neutral
+2023,Very Unwilling
+2025,Fairly Willing
+2027,Fairly Willing
+2028,Neutral
+2029,Fairly Unwilling
+2030,Fairly Willing
+2033,Fairly Willing
+2034,Very Willing
+2035,Fairly Willing
+2037,Very Unwilling
+2038,Neutral
+2042,Very Willing
+2046,Neutral
+2049,Fairly Unwilling
+2051,Fairly Willing
+2052,Fairly Willing
+2053,Fairly Willing
+2056,Neutral
+2057,Fairly Unwilling
+2058,Fairly Unwilling
+2060,Fairly Unwilling
+2063,Fairly Unwilling
+2064,Fairly Unwilling
+2065,Very Willing
+2067,Fairly Unwilling
+2068,Fairly Unwilling
+2072,Fairly Willing
+2075,Neutral
+2076,Fairly Willing
+2077,Fairly Willing
+2078,Fairly Willing
+2080,Neutral
+2089,Fairly Unwilling
+2090,Neutral
+2093,Neutral
+2094,Fairly Willing
+2095,Fairly Willing
+2097,Neutral
+2099,Fairly Willing
+2100,Fairly Willing
+2103,Fairly Willing
+2104,Fairly Willing
+2106,Neutral
+2108,Fairly Unwilling
+2110,Fairly Willing
+2112,Fairly Unwilling
+2118,Fairly Unwilling
+2119,Very Willing
+2124,Fairly Willing
+2125,Neutral
+2135,Neutral
+2140,Neutral
+2142,Fairly Unwilling
+2144,Very Unwilling
+2147,Fairly Willing
+2151,Neutral
+2156,Very Unwilling
+2157,Very Unwilling
+2158,Fairly Unwilling
+2163,Fairly Willing
+2165,Very Unwilling
+2170,Fairly Willing
+2172,Fairly Willing
+2176,Very Willing
+2177,Neutral
+2178,Fairly Willing
+2179,Very Unwilling
+2182,Fairly Willing
+2183,Neutral
+2184,Fairly Unwilling
+2185,Neutral
+2189,Very Unwilling
+2190,Fairly Willing
+2194,Fairly Willing
+2195,Fairly Willing
+2197,Fairly Willing
+2200,Fairly Unwilling
+2204,Very Unwilling
+2207,Very Unwilling
+2209,Very Unwilling
+2212,Fairly Willing
+2215,Fairly Willing
+2219,Neutral
+2221,Very Unwilling
+2223,Fairly Willing
+2229,Neutral
+2232,Fairly Unwilling
+2233,Neutral
+2234,Neutral
+2237,Very Willing
+2241,Fairly Willing
+2246,Fairly Willing
+2259,Fairly Willing
+2262,Fairly Unwilling
+2264,Fairly Unwilling
+2266,Very Unwilling
+2267,Neutral
+2268,Fairly Willing
+2269,Fairly Unwilling
+2270,Neutral
+2273,Fairly Willing
+2278,Fairly Willing
+2279,Neutral
+2290,Very Willing
+2292,Fairly Willing
+2295,Fairly Willing
+2304,Fairly Willing
+2305,Neutral
+2306,Fairly Willing
+2309,Very Willing
+2312,Fairly Unwilling
+2314,Fairly Willing
+2317,Fairly Willing
+2319,Fairly Unwilling
+2320,Fairly Unwilling
+2321,Fairly Willing
+2327,Neutral
+2328,Fairly Willing
+2330,Fairly Unwilling
+2335,Fairly Unwilling
+2336,Neutral
+2342,Fairly Unwilling
+2343,Neutral
+2350,Very Unwilling
+2351,Fairly Unwilling
+2352,Fairly Willing
+2353,Very Unwilling
+2355,Fairly Unwilling
+2357,Neutral
+2364,Very Unwilling
+2367,Very Willing
+2369,Fairly Willing
+2370,Very Willing
+2377,Fairly Willing
+2378,Fairly Willing
+2380,Fairly Willing
+2381,Fairly Willing
+2382,Fairly Unwilling
+2383,Fairly Willing
+2386,Very Unwilling
+2391,Fairly Willing
+2394,Neutral
+2396,Fairly Unwilling
+2397,Fairly Willing
+2398,Fairly Willing
+2399,Neutral
+2402,Neutral
+2406,Fairly Willing
+2407,Neutral
+2408,Fairly Willing
+2412,Fairly Willing
+2417,Fairly Willing
+2421,Neutral
+2425,Fairly Willing
+2426,Neutral
+2433,Fairly Willing
+2434,Fairly Willing
+2435,Fairly Willing
+2436,Fairly Willing
+2437,Fairly Willing
+2441,Fairly Willing
+2448,Fairly Willing
+2454,Fairly Willing
+2460,Neutral
+2462,Fairly Willing
+2463,Fairly Willing
+2466,Fairly Willing
+2467,Neutral
+2468,Neutral
+2470,Fairly Unwilling
+2474,Very Unwilling
+2478,Neutral
+2480,Neutral
+2481,Very Willing
+2489,Fairly Willing
+2494,Fairly Unwilling
+2495,Neutral
+2498,Fairly Willing
+2501,Neutral
+2502,Fairly Willing
+2503,Neutral
+2504,Fairly Willing
+2515,Fairly Willing
+2518,Neutral
+2520,Fairly Willing
+2521,Fairly Unwilling
+2524,Neutral
+2526,Neutral
+2528,Fairly Unwilling
+2533,Very Unwilling
+2536,Fairly Willing
+2538,Very Unwilling
+2541,Very Unwilling
+2543,Fairly Willing
+2544,Fairly Willing
+2556,Neutral
+2557,Fairly Willing
+2558,Neutral
+2560,Fairly Willing
+2561,Fairly Willing
+2562,Fairly Willing
+2566,Fairly Unwilling
+2567,Fairly Willing
+2569,Very Unwilling
+2571,Fairly Willing
+2575,Neutral
+2577,Neutral
+2579,Neutral
+2581,Very Willing
+2585,Very Willing
+2588,Fairly Willing
+2594,Fairly Willing
+2597,Very Willing
+2598,Fairly Willing
+2599,Very Willing
+2608,Fairly Willing
+2610,Neutral
+2614,Fairly Willing
+2617,Fairly Willing
+2619,Very Unwilling
+2620,Very Unwilling
+2623,Fairly Unwilling
+2627,Very Unwilling
+2629,Fairly Willing
+2630,Fairly Willing
+2634,Fairly Willing
+2635,Fairly Willing
+2639,Very Willing
+2643,Neutral
+2646,Very Willing
+2651,Very Unwilling
+2653,Very Unwilling
+2655,Neutral
+2658,Neutral
+2661,Neutral
+2664,Very Willing
+2665,Neutral
+2668,Fairly Unwilling
+2669,Neutral
+2674,Neutral
+2675,Fairly Willing
+2676,Fairly Unwilling
+2677,Neutral
+2679,Fairly Unwilling
+2684,Fairly Willing
+2686,Fairly Willing
+2687,Fairly Willing
+2688,Fairly Willing
+2692,Fairly Willing
+2697,Very Willing
+2701,Fairly Unwilling
+2702,Neutral
+2705,Neutral
+2709,Fairly Willing
+2712,Fairly Unwilling
+2716,Fairly Unwilling
+2717,Fairly Willing
+2719,Fairly Willing
+2726,Neutral
+2729,Neutral
+2733,Neutral
+2736,Neutral
+2737,Very Unwilling
+2739,Neutral
+2740,Very Unwilling
+2741,Neutral
+2742,Fairly Willing
+2744,Neutral
+2746,Neutral
+2747,Fairly Willing
+2749,Fairly Willing
+2752,Neutral
+2753,Very Willing
+2756,Fairly Willing
+2757,Neutral
+2758,Fairly Unwilling
+2759,Fairly Unwilling
+2761,Fairly Willing
+2766,Neutral
+2769,Fairly Unwilling
+2771,Fairly Willing
+2773,Very Unwilling
+2774,Neutral
+2775,Very Unwilling
+2781,Fairly Willing
+2782,Very Unwilling
+2783,Fairly Unwilling
+2785,Very Unwilling
+2787,Neutral
+2791,Very Unwilling
+2793,Fairly Willing
+2794,Fairly Unwilling
+2799,Fairly Unwilling
+2801,Neutral
+2804,Very Willing
+2806,Fairly Willing
+2807,Fairly Willing
+2810,Neutral
+2811,Neutral
+2814,Neutral
+2820,Fairly Willing
+2822,Neutral
+2823,Very Unwilling
+2824,Fairly Willing
+2827,Very Willing
+2829,Very Unwilling
+2835,Fairly Unwilling
+2836,Fairly Willing
+2837,Fairly Unwilling
+2839,Fairly Unwilling
+2843,Neutral
+2844,Fairly Unwilling
+2847,Fairly Willing
+2849,Fairly Willing
+2853,Fairly Willing
+2859,Very Unwilling
+2860,Neutral
+2862,Neutral
+2864,Neutral
+2867,Fairly Willing
+2869,Fairly Willing
+2870,Fairly Willing
+2872,Fairly Willing
+2873,Fairly Willing
+2874,Fairly Willing
+2875,Fairly Unwilling
+2876,Fairly Unwilling
+2877,Fairly Willing
+2880,Fairly Willing
+2884,Fairly Willing
+2886,Fairly Unwilling
+2889,Fairly Willing
+2892,Fairly Unwilling
+2897,Neutral
+2901,Fairly Willing
+2902,Fairly Willing
+2903,Very Willing
+2908,Fairly Willing
+2910,Neutral
+2913,Fairly Unwilling
+2918,Fairly Willing
+2920,Fairly Willing
+2925,Neutral
+2927,Very Unwilling
+2929,Neutral
+2934,Neutral
+2941,Very Unwilling
+2942,Very Willing
+2944,Fairly Unwilling
+2945,Very Unwilling
+2949,Fairly Willing
+2955,Fairly Willing
+2959,Very Unwilling
+2966,Very Unwilling
+2967,Fairly Unwilling
+2970,Neutral
+2972,Fairly Unwilling
+2973,Fairly Unwilling
+2978,Neutral
+2979,Fairly Willing
+2984,Fairly Willing
+2985,Fairly Unwilling
+2986,Fairly Willing
+2987,Fairly Unwilling
+2988,Fairly Unwilling
+2989,Neutral
+2992,Fairly Unwilling
+2994,Fairly Willing
+2996,Very Unwilling
+2998,Very Unwilling
+3001,Neutral
+3002,Fairly Willing
+3005,Fairly Willing
+3009,Fairly Unwilling
+3012,Neutral
+3013,Fairly Unwilling
+3019,Fairly Willing
+3020,Very Willing
+3021,Fairly Unwilling
+3023,Very Unwilling
+3026,Very Unwilling
+3027,Fairly Willing
+3028,Fairly Unwilling
+3029,Fairly Willing
+3031,Fairly Willing
+3033,Fairly Willing
+3034,Neutral
+3035,Very Unwilling
+3036,Neutral
+3037,Very Unwilling
+3043,Fairly Willing
+3047,Fairly Willing
+3050,Very Willing
+3055,Fairly Willing
+3057,Fairly Willing
+3063,Neutral
+3065,Fairly Unwilling
+3067,Fairly Unwilling
+3070,Neutral
+3072,Fairly Willing
+3073,Fairly Willing
+3075,Fairly Willing
+3078,Fairly Willing
+3083,Neutral
+3084,Neutral
+3088,Fairly Unwilling
+3090,Fairly Willing
+3091,Fairly Unwilling
+3092,Fairly Willing
+3094,Neutral
+3095,Neutral
+3097,Very Unwilling
+3100,Fairly Willing
+3104,Fairly Willing
+3108,Fairly Willing
+3114,Neutral
+3116,Very Unwilling
+3117,Fairly Unwilling
+3119,Neutral
+3121,Fairly Unwilling
+3122,Very Unwilling
+3125,Fairly Unwilling
+3128,Fairly Unwilling
+3130,Very Unwilling
+3131,Fairly Willing
+3132,Fairly Willing
+3140,Fairly Unwilling
+3141,Neutral
+3145,Fairly Unwilling
+3147,Neutral
+3149,Very Unwilling
+3151,Fairly Unwilling
+3153,Fairly Willing
+3154,Fairly Willing
+3155,Very Willing
+3159,Neutral
+3161,Fairly Unwilling
+3163,Very Unwilling
+3164,Fairly Willing
+3166,Fairly Willing
+3173,Neutral
+3174,Neutral
+3180,Neutral
+3182,Very Willing
+3192,Fairly Unwilling
+3195,Very Willing
+3197,Very Unwilling
+3200,Very Willing
+3201,Fairly Unwilling
+3202,Fairly Unwilling
+3203,Very Willing
+3204,Fairly Willing
+3206,Fairly Willing
+3207,Fairly Unwilling
+3213,Fairly Willing
+3214,Fairly Unwilling
+3215,Fairly Unwilling
+3216,Fairly Willing
+3217,Neutral
+3219,Fairly Willing
+3221,Fairly Unwilling
+3222,Neutral
+3223,Neutral
+3224,Neutral
+3225,Very Unwilling
+3228,Very Unwilling
+3229,Fairly Willing
+3235,Neutral
+3237,Very Willing
+3238,Fairly Willing
+3242,Neutral
+3244,Fairly Unwilling
+3246,Fairly Willing
+3255,Very Unwilling
+3256,Neutral
+3257,Fairly Willing
+3260,Very Unwilling
+3262,Fairly Willing
+3265,Fairly Unwilling
+3266,Fairly Willing
+3267,Very Willing
+3269,Fairly Willing
+3271,Fairly Willing
+3272,Neutral
+3274,Fairly Willing
+3275,Very Willing
+3281,Fairly Willing
+3284,Very Unwilling
+3286,Very Willing
+3287,Fairly Willing
+3289,Neutral
+3299,Very Willing
+3308,Fairly Unwilling
+3314,Neutral
+3315,Fairly Willing
+3318,Neutral
+3321,Neutral
+3322,Fairly Willing
+3325,Fairly Willing
+3326,Fairly Unwilling
+3328,Fairly Willing
+3333,Very Willing
+3335,Neutral
+3338,Fairly Unwilling
+3339,Fairly Willing
+3344,Fairly Willing
+3348,Fairly Willing
+3349,Neutral
+3351,Fairly Willing
+3357,Neutral
+3360,Fairly Willing
+3361,Neutral
+3363,Very Unwilling
+3365,Neutral
+3368,Fairly Willing
+3371,Neutral
+3372,Neutral
+3373,Very Willing
+3378,Fairly Willing
+3380,Neutral
+3382,Neutral
+3383,Neutral
+3385,Very Unwilling
+3392,Fairly Willing
+3393,Neutral
+3395,Very Willing
+3398,Very Unwilling
+3401,Neutral
+3402,Fairly Willing
+3408,Neutral
+3410,Fairly Unwilling
+3412,Fairly Unwilling
+3413,Fairly Willing
+3414,Fairly Unwilling
+3417,Neutral
+3421,Fairly Willing
+3423,Fairly Willing
+3424,Fairly Willing
+3425,Neutral
+3426,Neutral
+3435,Fairly Unwilling
+3438,Neutral
+3440,Neutral
+3446,Fairly Unwilling
+3447,Neutral
+3448,Very Willing
+3449,Neutral
+3455,Fairly Willing
+3456,Fairly Unwilling
+3458,Fairly Unwilling
+3465,Very Willing
+3466,Fairly Willing
+3477,Neutral
+3481,Neutral
+3483,Neutral
+3487,Fairly Willing
+3488,Neutral
+3491,Very Unwilling
+3492,Fairly Unwilling
+3493,Very Willing
+3494,Very Unwilling
+3495,Neutral
+3497,Fairly Unwilling
+3502,Fairly Willing
+3503,Neutral
+3505,Neutral
+3508,Fairly Willing
+3511,Fairly Unwilling
+3512,Neutral
+3515,Very Willing
+3516,Fairly Willing
+3520,Fairly Willing
+3521,Fairly Willing
+3522,Fairly Willing
+3525,Very Unwilling
+3526,Neutral
+3532,Very Willing
+3533,Neutral
+3535,Fairly Unwilling
+3537,Very Willing
+3544,Very Unwilling
+3545,Neutral
+3549,Fairly Willing
+3551,Fairly Willing
+3552,Very Willing
+3553,Fairly Willing
+3554,Neutral
+3559,Neutral
+3560,Neutral
+3561,Very Willing
+3563,Fairly Willing
+3566,Very Willing
+3571,Very Willing
+3572,Fairly Willing
+3578,Neutral
+3579,Neutral
+3580,Neutral
+3581,Fairly Unwilling
+3583,Fairly Willing
+3591,Neutral
+3596,Neutral
+3600,Fairly Unwilling
+3602,Neutral
+3603,Fairly Willing
+3604,Fairly Unwilling
+3608,Neutral
+3610,Fairly Willing
+3612,Fairly Unwilling
+3613,Fairly Willing
+3615,Fairly Willing
+3616,Fairly Willing
+3618,Fairly Willing
+3619,Neutral
+3623,Very Willing
+3626,Fairly Unwilling
+3630,Fairly Unwilling
+3632,Fairly Unwilling
+3635,Fairly Unwilling
+3639,Neutral
+3641,Fairly Willing
+3643,Fairly Willing
+3646,Neutral
+3649,Neutral
+3650,Fairly Unwilling
+3651,Neutral
+3652,Fairly Unwilling
+3653,Very Unwilling
+3657,Fairly Unwilling
+3658,Fairly Willing
+3659,Fairly Willing
+3664,Neutral
+3667,Fairly Willing
+3668,Fairly Unwilling
+3674,Fairly Unwilling
+3677,Fairly Willing
+3678,Fairly Willing
+3679,Fairly Willing
+3680,Neutral
+3681,Fairly Unwilling
+3686,Neutral
+3688,Fairly Willing
+3691,Fairly Willing
+3692,Very Unwilling
+3694,Very Willing
+3696,Very Unwilling
+3698,Neutral
+3700,Very Willing
+3702,Fairly Unwilling
+3703,Fairly Willing
+3708,Fairly Willing
+3709,Very Unwilling
+3712,Fairly Willing
+3721,Fairly Unwilling
+3726,Fairly Willing
+3727,Fairly Unwilling
+3728,Fairly Unwilling
+3729,Neutral
+3731,Fairly Willing
+3735,Fairly Unwilling
+3738,Neutral
+3740,Very Willing
+3741,Very Unwilling
+3747,Fairly Willing
+3755,Neutral
+3756,Fairly Unwilling
+3757,Fairly Unwilling
+3760,Fairly Willing
+3761,Neutral
+3765,Fairly Willing
+3766,Fairly Unwilling
+3768,Very Willing
+3769,Very Unwilling
+3771,Fairly Willing
+3777,Very Unwilling
+3779,Very Unwilling
+3783,Very Unwilling
+3788,Fairly Unwilling
+3790,Fairly Willing
+3793,Neutral
+3795,Very Unwilling
+3798,Neutral
+3801,Neutral
+3806,Neutral
+3809,Neutral
+3810,Neutral
+3812,Very Unwilling
+3813,Fairly Willing
+3814,Fairly Unwilling
+3819,Fairly Willing
+3821,Very Willing
+3822,Fairly Unwilling
+3824,Fairly Willing
+3825,Fairly Unwilling
+3829,Neutral
+3843,Very Willing
+3844,Fairly Unwilling
+3846,Very Unwilling
+3848,Fairly Unwilling
+3849,Very Willing
+3850,Neutral
+3852,Fairly Willing
+3856,Fairly Willing
+3859,Fairly Willing
+3864,Neutral
+3871,Neutral
+3874,Neutral
+3875,Fairly Willing
+3876,Fairly Willing
+3881,Very Unwilling
+3892,Fairly Willing
+3895,Fairly Willing
+3896,Neutral
+3902,Fairly Willing
+3908,Very Willing
+3912,Fairly Unwilling
+3915,Fairly Willing
+3916,Fairly Willing
+3918,Fairly Unwilling
+3920,Fairly Willing
+3921,Fairly Willing
+3924,Neutral
+3925,Fairly Willing
+3930,Neutral
+3932,Neutral
+3934,Fairly Willing
+3936,Fairly Unwilling
+3937,Fairly Willing
+3943,Fairly Willing
+3945,Neutral
+3947,Fairly Willing
+3950,Fairly Unwilling
+3952,Neutral
+3953,Fairly Willing
+3955,Fairly Willing
+3956,Fairly Willing
+3972,Very Unwilling
+3977,Fairly Willing
+3978,Fairly Unwilling
+3981,Neutral
+3982,Fairly Willing
+3985,Fairly Unwilling
+3988,Fairly Unwilling
+3992,Fairly Willing
+3996,Very Willing
+3997,Neutral
+4001,Very Unwilling
+4003,Fairly Unwilling
+4007,Fairly Willing
+4013,Very Unwilling
+4020,Fairly Willing
+4021,Very Unwilling
+4026,Fairly Unwilling
+4031,Very Unwilling
+4038,Very Unwilling
+4039,Very Unwilling
+4047,Neutral
+4049,Fairly Unwilling
+4052,Neutral
+4053,Neutral
+4055,Very Unwilling
+4056,Fairly Willing
+4058,Fairly Willing
+4060,Fairly Willing
+4061,Neutral
+4062,Fairly Willing
+4064,Fairly Unwilling
+4069,Fairly Unwilling
+4072,Neutral
+4078,Neutral
+4082,Fairly Unwilling
+4083,Fairly Unwilling
+4090,Fairly Willing
+4093,Very Unwilling
+4095,Fairly Unwilling
+4097,Fairly Willing
+4098,Very Unwilling
+4101,Fairly Willing
+4108,Fairly Unwilling
+4109,Fairly Unwilling
+4113,Neutral
+4114,Neutral
+4116,Fairly Willing
+4117,Neutral
+4118,Very Unwilling
+4122,Fairly Unwilling
+4128,Neutral
+4130,Fairly Unwilling
+4135,Very Unwilling
+4137,Fairly Willing
+4139,Fairly Unwilling
+4143,Neutral
+4145,Very Unwilling
+4147,Fairly Unwilling
+4148,Fairly Willing
+4150,Neutral
+4154,Fairly Unwilling
+4157,Neutral
+4159,Neutral
+4160,Fairly Willing
+4164,Neutral
+4166,Fairly Willing
+4169,Very Willing
+4172,Fairly Willing
+4173,Neutral
+4176,Fairly Willing
+4179,Fairly Unwilling
+4184,Neutral
+4185,Very Unwilling
+4187,Fairly Willing
+4190,Neutral
+4191,Neutral
+4193,Fairly Willing
+4194,Fairly Willing
+4195,Fairly Unwilling
+4201,Fairly Unwilling
+4208,Very Unwilling
+4211,Neutral
+4215,Fairly Willing
+4219,Neutral
+4225,Neutral
+4228,Fairly Unwilling
+4235,Very Unwilling
+4236,Very Unwilling
+4237,Very Willing
+4239,Very Willing
+4240,Fairly Willing
+4242,Fairly Unwilling
+4244,Fairly Willing
+4247,Fairly Willing
+4249,Very Willing
+4250,Fairly Unwilling
+4252,Neutral
+4257,Fairly Willing
+4266,Fairly Willing
+4267,Neutral
+4268,Fairly Willing
+4269,Fairly Willing
+4270,Very Willing
+4271,Fairly Willing
+4272,Fairly Unwilling
+4277,Neutral
+4280,Neutral
+4283,Fairly Unwilling
+4287,Fairly Willing
+4288,Very Unwilling
+4292,Fairly Unwilling
+4293,Very Unwilling
+4295,Fairly Willing
+4297,Very Unwilling
+4301,Fairly Willing
+4303,Very Willing
+4304,Very Unwilling
+4308,Fairly Willing
+4309,Fairly Willing
+4311,Fairly Willing
+4313,Very Willing
+4314,Fairly Willing
+4315,Fairly Willing
+4316,Fairly Unwilling
+4319,Fairly Unwilling
+4321,Fairly Unwilling
+4323,Fairly Unwilling
+4324,Neutral
+4326,Very Unwilling
+4328,Neutral
+4333,Very Unwilling
+4334,Neutral
+4338,Very Willing
+4341,Neutral
+4345,Fairly Unwilling
+4346,Neutral
+4347,Fairly Willing
+4348,Neutral
+4351,Fairly Willing
+4352,Fairly Unwilling
+4353,Fairly Unwilling
+4354,Fairly Willing
+4355,Very Unwilling
+4360,Very Unwilling
+4367,Fairly Unwilling
+4368,Fairly Unwilling
+4369,Fairly Willing
+4370,Very Unwilling
+4373,Neutral
+4378,Neutral
+4382,Neutral
+4389,Very Unwilling
+4390,Fairly Willing
+4393,Neutral
+4395,Very Willing
+4396,Very Unwilling
+4399,Very Unwilling
+4402,Neutral
+4407,Fairly Willing
+4411,Very Willing
+4414,Fairly Unwilling
+4416,Fairly Willing
+4419,Fairly Willing
+4428,Very Unwilling
+4429,Very Unwilling
+4432,Fairly Willing
+4437,Fairly Unwilling
+4439,Fairly Willing
+4441,Fairly Willing
+4442,Fairly Unwilling
+4443,Fairly Willing
+4445,Very Willing
+4450,Neutral
+4455,Neutral
+4456,Neutral
+4457,Fairly Willing
+4458,Fairly Willing
+4459,Fairly Willing
+4460,Neutral
+4462,Fairly Willing
+4463,Neutral
+4467,Neutral
+4468,Fairly Unwilling
+4470,Fairly Willing

@@ -1,1736 +1,1736 @@
 id,degree
-6,1
-7,3
-8,1
-9,4
-13,0
-16,1
-17,4
-23,4
-25,3
-28,2
-31,4
-32,1
-36,4
-37,3
-38,4
-43,1
-46,3
-51,3
-54,4
-60,3
-62,3
-67,3
-69,2
-71,3
-77,3
-79,1
-82,1
-83,1
-84,4
-88,3
-92,3
-94,1
-95,3
-96,1
-98,1
-99,2
-101,2
-102,4
-104,3
-107,4
-108,2
-111,3
-114,2
-117,4
-118,4
-120,3
-121,4
-123,4
-124,3
-128,1
-131,3
-132,1
-135,3
-138,1
-142,3
-143,4
-144,4
-146,4
-147,3
-149,3
-151,0
-153,2
-155,4
-158,4
-159,1
-162,1
-165,3
-166,4
-168,1
-169,4
-172,3
-175,1
-176,3
-181,3
-184,1
-189,1
-192,1
-194,1
-202,1
-211,1
-214,1
-215,3
-216,0
-224,3
-225,0
-226,2
-230,1
-231,4
-232,1
-235,1
-236,4
-239,4
-242,3
-244,3
-253,3
-254,3
-255,3
-256,4
-258,2
-259,4
-261,1
-265,3
-266,1
-272,3
-273,2
-275,1
-278,4
-279,4
-284,3
-285,4
-286,1
-288,4
-294,3
-296,1
-298,2
-303,3
-305,4
-309,2
-312,3
-313,1
-314,1
-317,1
-320,3
-321,3
-323,3
-324,3
-328,3
-330,4
-333,1
-335,2
-336,3
-337,1
-338,1
-340,4
-341,1
-342,2
-343,1
-344,3
-346,1
-348,1
-350,1
-353,4
-354,4
-356,3
-357,4
-359,1
-361,1
-368,1
-369,3
-372,3
-373,1
-375,3
-379,4
-383,3
-385,4
-387,1
-389,4
-391,4
-396,1
-398,2
-399,0
-400,1
-405,4
-409,2
-415,3
-418,4
-422,4
-423,0
-427,2
-433,4
-434,4
-436,1
-437,1
-438,0
-441,1
-444,1
-446,3
-447,3
-448,3
-449,3
-452,1
-453,4
-455,0
-456,4
-457,4
-458,4
-460,3
-461,4
-463,1
-464,1
-468,4
-469,4
-470,0
-474,4
-477,1
-480,1
-482,1
-484,4
-486,2
-487,0
-488,1
-492,0
-494,2
-496,1
-501,2
-504,2
-505,4
-507,1
-510,3
-511,2
-513,2
-514,4
-515,3
-516,4
-517,2
-518,4
-523,0
-525,1
-526,2
-528,4
-529,3
-530,1
-531,4
-536,1
-537,2
-539,1
-540,1
-548,2
-549,0
-552,1
-553,3
-555,3
-559,4
-560,1
-562,1
-564,2
-572,1
-577,2
-581,2
-582,2
-586,3
-588,4
-591,1
-593,1
-595,4
-602,1
-604,0
-610,2
-611,3
-613,1
-615,2
-616,1
-618,2
-619,2
-622,0
-625,3
-626,1
-630,2
-632,1
-635,1
-636,4
-641,4
-648,1
-650,1
-652,1
-653,1
-657,4
-660,3
-661,3
-666,4
-669,1
-670,1
-675,2
-676,1
-678,1
-680,1
-682,1
-684,4
-691,2
-693,3
-694,1
-697,1
-700,1
-701,2
-704,4
-705,4
-710,1
-713,4
-714,3
-717,4
-720,3
-721,3
-723,4
-724,3
-727,3
-729,0
-733,3
-734,3
-735,3
-737,1
-738,1
-740,4
-741,1
-744,1
-748,2
-749,4
-751,3
-752,1
-753,2
-755,4
-756,1
-759,2
-761,4
-764,1
-766,1
-768,1
-769,4
-772,3
-774,0
-778,1
-779,3
-780,1
-784,1
-785,3
-788,4
-795,1
-796,3
-797,4
-799,3
-800,1
-801,3
-803,1
-804,3
-805,3
-806,0
-808,1
-812,2
-814,1
-815,3
-819,1
-821,4
-823,1
-824,1
-825,2
-827,1
-828,3
-831,3
-832,1
-833,1
-838,1
-839,3
-842,1
-843,3
-849,1
-850,1
-853,1
-855,0
-858,1
-859,1
-860,1
-861,1
-862,1
-863,1
-866,1
-871,2
-873,4
-874,1
-880,2
-881,4
-882,4
-884,4
-892,3
-895,1
-896,4
-898,4
-902,1
-904,4
-905,1
-906,4
-911,4
-914,4
-916,4
-919,4
-920,1
-921,4
-924,0
-926,1
-931,3
-932,1
-934,1
-939,3
-941,3
-944,4
-946,4
-947,3
-953,4
-954,4
-955,4
-960,1
-964,4
-969,3
-977,1
-982,4
-986,4
-988,3
-991,4
-992,1
-993,3
-995,2
-998,3
-999,3
-1000,3
-1007,0
-1008,1
-1011,1
-1015,4
-1018,3
-1019,3
-1023,3
-1028,0
-1029,1
-1030,1
-1039,2
-1043,1
-1044,4
-1048,2
-1049,4
-1050,1
-1052,1
-1055,3
-1056,1
-1057,2
-1059,1
-1061,3
-1062,4
-1065,4
-1066,1
-1068,3
-1071,3
-1072,1
-1080,1
-1081,1
-1082,4
-1085,1
-1086,1
-1087,1
-1088,1
-1090,2
-1091,1
-1093,1
-1096,1
-1100,1
-1102,4
-1106,1
-1107,1
-1108,1
-1110,4
-1115,4
-1117,1
-1122,0
-1123,3
-1128,3
-1129,4
-1130,4
-1131,3
-1134,3
-1135,4
-1136,4
-1138,3
-1140,3
-1149,1
-1150,0
-1151,4
-1152,1
-1154,4
-1158,3
-1162,3
-1163,4
-1164,3
-1165,4
-1168,3
-1169,1
-1172,1
-1176,4
-1177,4
-1178,1
-1181,2
-1183,1
-1186,3
-1188,1
-1191,1
-1192,1
-1193,3
-1195,3
-1197,3
-1199,4
-1200,3
-1201,4
-1206,4
-1207,4
-1212,1
-1215,3
-1222,1
-1224,4
-1228,1
-1230,3
-1235,1
-1236,1
-1237,2
-1238,1
-1244,1
-1245,1
-1248,0
-1250,3
-1252,2
-1253,4
-1256,1
-1259,4
-1260,4
-1261,1
-1265,4
-1268,4
-1272,4
-1273,4
-1280,1
-1283,3
-1285,4
-1287,4
-1289,4
-1290,4
-1294,1
-1295,4
-1297,3
-1299,4
-1303,3
-1304,2
-1306,3
-1307,1
-1308,1
-1312,2
-1315,2
-1316,1
-1317,4
-1318,3
-1319,2
-1322,1
-1323,3
-1325,1
-1326,3
-1327,1
-1332,4
-1334,3
-1336,3
-1338,1
-1339,1
-1344,4
-1346,4
-1347,1
-1348,1
-1349,2
-1350,3
-1357,3
-1361,3
-1363,3
-1368,1
-1370,4
-1371,2
-1376,4
-1382,1
-1384,1
-1385,3
-1387,0
-1388,4
-1394,0
-1398,4
-1401,3
-1402,2
-1406,0
-1409,2
-1410,2
-1411,1
-1413,1
-1417,1
-1418,3
-1420,3
-1421,2
-1427,3
-1429,3
-1431,3
-1434,1
-1435,1
-1437,2
-1438,1
-1442,1
-1447,1
-1448,3
-1451,4
-1453,1
-1457,1
-1460,1
-1463,1
-1466,1
-1470,4
-1474,4
-1477,4
-1479,0
-1480,1
-1484,1
-1485,4
-1489,3
-1490,1
-1491,4
-1495,3
-1498,0
-1504,1
-1506,0
-1513,1
-1514,3
-1519,2
-1521,1
-1523,1
-1524,4
-1526,1
-1531,1
-1535,1
-1537,3
-1538,3
-1539,3
-1541,1
-1544,1
-1550,1
-1553,3
-1554,4
-1559,0
-1560,3
-1564,3
-1565,1
-1566,1
-1568,1
-1569,1
-1571,1
-1572,3
-1573,1
-1574,1
-1576,2
-1577,0
-1580,1
-1581,3
-1582,3
-1585,4
-1592,3
-1594,3
-1595,3
-1607,4
-1608,1
-1612,0
-1614,0
-1619,1
-1621,1
-1623,1
-1625,3
-1627,4
-1636,0
-1639,1
-1641,4
-1643,4
-1647,1
-1652,1
-1653,4
-1655,1
-1657,1
-1661,1
-1667,3
-1669,4
-1672,2
-1673,1
-1681,4
-1683,3
-1684,3
-1686,3
-1687,4
-1692,3
-1696,1
-1704,3
-1707,3
-1708,2
-1711,0
-1712,1
-1716,4
-1717,3
-1718,1
-1720,2
-1722,3
-1726,4
-1727,3
-1732,1
-1734,4
-1736,3
-1738,2
-1739,0
-1742,1
-1743,1
-1744,2
-1745,3
-1748,3
-1750,1
-1752,1
-1755,1
-1756,3
-1762,1
-1763,1
-1766,3
-1770,1
-1773,1
-1777,1
-1778,1
-1782,1
-1784,4
-1785,3
-1787,3
-1792,3
-1795,1
-1798,3
-1806,1
-1808,1
-1809,3
-1812,1
-1818,1
-1820,1
-1821,1
-1822,1
-1823,1
-1824,3
-1826,1
-1827,1
-1828,1
-1829,3
-1833,1
-1835,4
-1837,3
-1838,0
-1839,1
-1840,1
-1841,0
-1844,2
-1845,3
-1850,2
-1852,3
-1853,1
-1855,1
-1856,1
-1857,4
-1860,3
-1861,2
-1864,4
-1865,1
-1869,1
-1872,1
-1877,2
-1879,1
-1881,1
-1883,3
-1884,3
-1887,1
-1888,1
-1889,3
-1891,4
-1895,4
-1896,3
-1899,3
-1901,1
-1908,3
-1910,4
-1914,3
-1915,1
-1917,1
-1918,4
-1923,4
-1924,3
-1927,3
-1928,1
-1930,1
-1933,3
-1935,2
-1936,3
-1941,3
-1942,4
-1944,1
-1949,3
-1950,3
-1954,4
-1957,1
-1960,3
-1961,1
-1962,4
-1964,1
-1970,4
-1974,1
-1978,1
-1980,3
-1985,3
-1986,3
-1988,4
-1990,1
-1995,1
-1996,3
-1998,1
-1999,1
-2000,1
-2003,3
-2006,2
-2008,1
-2010,1
-2011,1
-2019,1
-2020,1
-2023,1
-2025,3
-2027,3
-2028,1
-2029,3
-2030,1
-2033,4
-2034,4
-2035,1
-2037,1
-2038,3
-2042,3
-2046,1
-2049,1
-2051,3
-2052,1
-2053,1
-2056,2
-2057,1
-2058,1
-2060,0
-2063,1
-2064,1
-2065,1
-2067,1
-2068,3
-2072,3
-2075,1
-2076,1
-2077,3
-2078,1
-2080,1
-2089,3
-2090,0
-2093,1
-2094,4
-2095,1
-2097,4
-2099,1
-2100,2
-2103,3
-2104,0
-2106,3
-2108,4
-2110,1
-2112,2
-2118,2
-2119,3
-2124,4
-2125,1
-2135,4
-2140,3
-2142,2
-2144,1
-2147,1
-2151,4
-2156,4
-2157,1
-2158,1
-2163,1
-2165,1
-2170,0
-2172,3
-2176,1
-2177,3
-2178,3
-2179,1
-2182,4
-2183,0
-2184,2
-2185,1
-2189,0
-2190,1
-2194,1
-2195,4
-2197,2
-2200,1
-2204,2
-2207,4
-2209,3
-2212,4
-2215,4
-2219,1
-2221,1
-2223,1
-2229,3
-2232,2
-2233,3
-2234,3
-2237,1
-2241,1
-2246,4
-2259,4
-2262,4
-2264,4
-2266,3
-2267,3
-2268,3
-2269,2
-2270,3
-2273,1
-2278,3
-2279,1
-2290,4
-2292,2
-2295,1
-2304,1
-2305,0
-2306,2
-2309,4
-2312,1
-2314,4
-2317,1
-2319,3
-2320,4
-2321,1
-2327,1
-2328,3
-2330,1
-2335,4
-2336,1
-2342,1
-2343,3
-2350,1
-2351,0
-2352,0
-2353,1
-2355,1
-2357,3
-2364,3
-2367,1
-2369,3
-2370,4
-2377,1
-2378,1
-2380,1
-2381,1
-2382,1
-2383,4
-2386,1
-2391,3
-2394,1
-2396,0
-2397,4
-2398,3
-2399,1
-2402,0
-2406,2
-2407,1
-2408,3
-2412,1
-2417,4
-2421,3
-2425,1
-2426,1
-2433,3
-2434,3
-2435,1
-2436,3
-2437,3
-2441,2
-2448,4
-2454,1
-2460,1
-2462,4
-2463,3
-2466,1
-2467,3
-2468,3
-2470,1
-2474,3
-2478,4
-2480,1
-2481,3
-2489,2
-2494,4
-2495,1
-2498,4
-2501,1
-2502,3
-2503,3
-2504,4
-2515,1
-2518,2
-2520,3
-2521,1
-2524,3
-2526,3
-2528,1
-2533,1
-2536,3
-2538,1
-2541,3
-2543,3
-2544,1
-2556,4
-2557,3
-2558,1
-2560,3
-2561,3
-2562,0
-2566,1
-2567,1
-2569,1
-2571,3
-2575,1
-2577,4
-2579,3
-2581,2
-2585,1
-2588,3
-2594,3
-2597,4
-2598,3
-2599,3
-2608,4
-2610,1
-2614,1
-2617,1
-2619,1
-2620,1
-2623,1
-2627,1
-2629,3
-2630,4
-2634,1
-2635,1
-2639,4
-2643,1
-2646,3
-2651,1
-2653,1
-2655,0
-2658,3
-2661,1
-2664,4
-2665,0
-2668,1
-2669,1
-2674,4
-2675,4
-2676,1
-2677,1
-2679,1
-2684,1
-2686,3
-2687,3
-2688,1
-2692,4
-2697,3
-2701,3
-2702,1
-2705,3
-2709,2
-2712,1
-2716,2
-2717,4
-2719,1
-2726,3
-2729,0
-2733,1
-2736,0
-2737,4
-2739,1
-2740,1
-2741,3
-2742,4
-2744,2
-2746,1
-2747,3
-2749,4
-2752,1
-2753,4
-2756,2
-2757,1
-2758,0
-2759,4
-2761,3
-2766,1
-2769,1
-2771,3
-2773,1
-2774,3
-2775,1
-2781,1
-2782,3
-2783,1
-2785,3
-2787,4
-2791,1
-2793,1
-2794,3
-2799,3
-2801,1
-2804,3
-2806,4
-2807,3
-2810,2
-2811,4
-2814,1
-2820,1
-2822,1
-2823,2
-2824,4
-2827,3
-2829,1
-2835,3
-2836,1
-2837,1
-2839,2
-2843,4
-2844,3
-2847,3
-2849,4
-2853,2
-2859,1
-2860,1
-2862,4
-2864,3
-2867,3
-2869,3
-2870,4
-2872,2
-2873,4
-2874,4
-2875,4
-2876,1
-2877,1
-2880,1
-2884,3
-2886,3
-2889,1
-2892,2
-2897,2
-2901,4
-2902,4
-2903,1
-2908,3
-2910,4
-2913,0
-2918,1
-2920,3
-2925,1
-2927,3
-2929,1
-2934,1
-2941,1
-2942,4
-2944,4
-2945,1
-2949,3
-2955,1
-2959,1
-2966,1
-2967,1
-2970,1
-2972,4
-2973,1
-2978,3
-2979,2
-2984,3
-2985,1
-2986,3
-2987,1
-2988,2
-2989,1
-2992,1
-2994,2
-2996,1
-2998,1
-3001,4
-3002,4
-3005,3
-3009,1
-3012,3
-3013,1
-3019,4
-3020,4
-3021,1
-3023,2
-3026,0
-3027,0
-3028,2
-3029,3
-3031,3
-3033,4
-3034,4
-3035,2
-3036,3
-3037,0
-3043,3
-3047,3
-3050,4
-3055,1
-3057,1
-3063,3
-3065,1
-3067,1
-3070,3
-3072,3
-3073,1
-3075,3
-3078,1
-3083,4
-3084,3
-3088,1
-3090,2
-3091,4
-3092,3
-3094,1
-3095,0
-3097,2
-3100,3
-3104,4
-3108,3
-3114,1
-3116,2
-3117,4
-3119,3
-3121,1
-3122,1
-3125,3
-3128,0
-3130,1
-3131,1
-3132,2
-3140,1
-3141,4
-3145,2
-3147,3
-3149,2
-3151,4
-3153,4
-3154,4
-3155,4
-3159,2
-3161,1
-3163,1
-3164,4
-3166,1
-3173,4
-3174,1
-3180,0
-3182,4
-3192,1
-3195,3
-3197,0
-3200,3
-3201,0
-3202,0
-3203,4
-3204,1
-3206,1
-3207,1
-3213,3
-3214,1
-3215,3
-3216,2
-3217,1
-3219,4
-3221,4
-3222,4
-3223,2
-3224,2
-3225,1
-3228,4
-3229,0
-3235,3
-3237,1
-3238,4
-3242,1
-3244,3
-3246,2
-3255,1
-3256,1
-3257,3
-3260,3
-3262,1
-3265,3
-3266,4
-3267,4
-3269,4
-3271,3
-3272,4
-3274,3
-3275,4
-3281,3
-3284,3
-3286,1
-3287,1
-3289,3
-3299,4
-3308,3
-3314,4
-3315,3
-3318,3
-3321,4
-3322,1
-3325,1
-3326,1
-3328,2
-3333,3
-3335,3
-3338,2
-3339,1
-3344,4
-3348,4
-3349,3
-3351,4
-3357,1
-3360,3
-3361,1
-3363,1
-3365,4
-3368,3
-3371,1
-3372,3
-3373,3
-3378,4
-3380,1
-3382,1
-3383,0
-3385,3
-3392,2
-3393,4
-3395,2
-3398,3
-3401,1
-3402,1
-3408,4
-3410,2
-3412,3
-3413,1
-3414,4
-3417,1
-3421,1
-3423,1
-3424,1
-3425,3
-3426,4
-3435,1
-3438,3
-3440,4
-3446,1
-3447,3
-3448,1
-3449,4
-3455,1
-3456,3
-3458,1
-3465,3
-3466,4
-3477,1
-3481,2
-3483,3
-3487,3
-3488,2
-3491,0
-3492,4
-3493,3
-3494,1
-3495,4
-3497,1
-3502,4
-3503,2
-3505,4
-3508,3
-3511,4
-3512,3
-3515,1
-3516,3
-3520,1
-3521,0
-3522,1
-3525,4
-3526,4
-3532,2
-3533,4
-3535,1
-3537,2
-3544,2
-3545,2
-3549,3
-3551,4
-3552,1
-3553,0
-3554,1
-3559,4
-3560,2
-3561,3
-3563,1
-3566,4
-3571,4
-3572,3
-3578,4
-3579,1
-3580,3
-3581,4
-3583,1
-3591,1
-3596,1
-3600,2
-3602,0
-3603,3
-3604,4
-3608,2
-3610,1
-3612,2
-3613,3
-3615,1
-3616,2
-3618,3
-3619,1
-3623,1
-3626,1
-3630,2
-3632,1
-3635,3
-3639,1
-3641,3
-3643,4
-3646,3
-3649,2
-3650,1
-3651,3
-3652,3
-3653,1
-3657,3
-3658,1
-3659,3
-3664,3
-3667,4
-3668,3
-3674,1
-3677,4
-3678,4
-3679,4
-3680,4
-3681,1
-3686,1
-3688,3
-3691,4
-3692,4
-3694,3
-3696,3
-3698,2
-3700,1
-3702,2
-3703,1
-3708,3
-3709,2
-3712,3
-3721,1
-3726,0
-3727,1
-3728,3
-3729,1
-3731,3
-3735,3
-3738,0
-3740,1
-3741,1
-3747,4
-3755,1
-3756,1
-3757,4
-3760,3
-3761,0
-3765,3
-3766,1
-3768,4
-3769,3
-3771,3
-3777,1
-3779,1
-3783,3
-3788,2
-3790,4
-3793,3
-3795,3
-3798,2
-3801,1
-3806,1
-3809,1
-3810,4
-3812,2
-3813,3
-3814,1
-3819,1
-3821,1
-3822,1
-3824,3
-3825,4
-3829,1
-3843,4
-3844,1
-3846,1
-3848,2
-3849,3
-3850,1
-3852,3
-3856,2
-3859,3
-3864,3
-3871,1
-3874,1
-3875,4
-3876,4
-3881,1
-3892,1
-3895,2
-3896,4
-3902,2
-3908,1
-3912,3
-3915,3
-3916,4
-3918,3
-3920,3
-3921,3
-3924,1
-3925,4
-3930,3
-3932,4
-3934,4
-3936,3
-3937,1
-3943,3
-3945,3
-3947,4
-3950,4
-3952,1
-3953,4
-3955,1
-3956,3
-3972,1
-3977,1
-3978,1
-3981,1
-3982,1
-3985,1
-3988,3
-3992,4
-3996,1
-3997,1
-4001,1
-4003,4
-4007,4
-4013,1
-4020,3
-4021,3
-4026,1
-4031,4
-4038,1
-4039,4
-4047,1
-4049,1
-4052,3
-4053,1
-4055,3
-4056,1
-4058,4
-4060,4
-4061,1
-4062,4
-4064,3
-4069,4
-4072,3
-4078,1
-4082,2
-4083,3
-4090,3
-4093,1
-4095,1
-4097,0
-4098,3
-4101,4
-4108,3
-4109,3
-4113,1
-4114,0
-4116,4
-4117,4
-4118,1
-4122,4
-4128,1
-4130,4
-4135,1
-4137,3
-4139,3
-4143,3
-4145,1
-4147,1
-4148,3
-4150,3
-4154,4
-4157,1
-4159,0
-4160,1
-4164,4
-4166,3
-4169,4
-4172,3
-4173,2
-4176,3
-4179,1
-4184,4
-4185,4
-4187,3
-4190,3
-4191,4
-4193,1
-4194,1
-4195,1
-4201,4
-4208,3
-4211,2
-4215,1
-4219,1
-4225,1
-4228,2
-4235,1
-4236,3
-4237,0
-4239,2
-4240,1
-4242,3
-4244,3
-4247,1
-4249,4
-4250,3
-4252,2
-4257,3
-4266,3
-4267,3
-4268,4
-4269,1
-4270,3
-4271,1
-4272,4
-4277,1
-4280,1
-4283,1
-4287,3
-4288,1
-4292,1
-4293,3
-4295,1
-4297,3
-4301,3
-4303,4
-4304,4
-4308,4
-4309,1
-4311,1
-4313,1
-4314,3
-4315,1
-4316,1
-4319,0
-4321,3
-4323,3
-4324,3
-4326,2
-4328,3
-4333,0
-4334,3
-4338,3
-4341,4
-4345,3
-4346,2
-4347,4
-4348,1
-4351,3
-4352,3
-4353,4
-4354,4
-4355,1
-4360,3
-4367,1
-4368,2
-4369,3
-4370,1
-4373,1
-4378,3
-4382,0
-4389,1
-4390,4
-4393,3
-4395,4
-4396,3
-4399,1
-4402,4
-4407,1
-4411,3
-4414,1
-4416,2
-4419,3
-4428,3
-4429,3
-4432,3
-4437,2
-4439,1
-4441,1
-4442,1
-4443,4
-4445,4
-4450,2
-4455,1
-4456,1
-4457,4
-4458,3
-4459,3
-4460,1
-4462,2
-4463,3
-4467,1
-4468,3
-4470,4
+6,High School
+7,Bachelors
+8,High School
+9,Graduate
+13,< High School
+16,High School
+17,Graduate
+23,Graduate
+25,Bachelors
+28,Junior College
+31,Graduate
+32,High School
+36,Graduate
+37,Bachelors
+38,Graduate
+43,High School
+46,Bachelors
+51,Bachelors
+54,Graduate
+60,Bachelors
+62,Bachelors
+67,Bachelors
+69,Junior College
+71,Bachelors
+77,Bachelors
+79,High School
+82,High School
+83,High School
+84,Graduate
+88,Bachelors
+92,Bachelors
+94,High School
+95,Bachelors
+96,High School
+98,High School
+99,Junior College
+101,Junior College
+102,Graduate
+104,Bachelors
+107,Graduate
+108,Junior College
+111,Bachelors
+114,Junior College
+117,Graduate
+118,Graduate
+120,Bachelors
+121,Graduate
+123,Graduate
+124,Bachelors
+128,High School
+131,Bachelors
+132,High School
+135,Bachelors
+138,High School
+142,Bachelors
+143,Graduate
+144,Graduate
+146,Graduate
+147,Bachelors
+149,Bachelors
+151,< High School
+153,Junior College
+155,Graduate
+158,Graduate
+159,High School
+162,High School
+165,Bachelors
+166,Graduate
+168,High School
+169,Graduate
+172,Bachelors
+175,High School
+176,Bachelors
+181,Bachelors
+184,High School
+189,High School
+192,High School
+194,High School
+202,High School
+211,High School
+214,High School
+215,Bachelors
+216,< High School
+224,Bachelors
+225,< High School
+226,Junior College
+230,High School
+231,Graduate
+232,High School
+235,High School
+236,Graduate
+239,Graduate
+242,Bachelors
+244,Bachelors
+253,Bachelors
+254,Bachelors
+255,Bachelors
+256,Graduate
+258,Junior College
+259,Graduate
+261,High School
+265,Bachelors
+266,High School
+272,Bachelors
+273,Junior College
+275,High School
+278,Graduate
+279,Graduate
+284,Bachelors
+285,Graduate
+286,High School
+288,Graduate
+294,Bachelors
+296,High School
+298,Junior College
+303,Bachelors
+305,Graduate
+309,Junior College
+312,Bachelors
+313,High School
+314,High School
+317,High School
+320,Bachelors
+321,Bachelors
+323,Bachelors
+324,Bachelors
+328,Bachelors
+330,Graduate
+333,High School
+335,Junior College
+336,Bachelors
+337,High School
+338,High School
+340,Graduate
+341,High School
+342,Junior College
+343,High School
+344,Bachelors
+346,High School
+348,High School
+350,High School
+353,Graduate
+354,Graduate
+356,Bachelors
+357,Graduate
+359,High School
+361,High School
+368,High School
+369,Bachelors
+372,Bachelors
+373,High School
+375,Bachelors
+379,Graduate
+383,Bachelors
+385,Graduate
+387,High School
+389,Graduate
+391,Graduate
+396,High School
+398,Junior College
+399,< High School
+400,High School
+405,Graduate
+409,Junior College
+415,Bachelors
+418,Graduate
+422,Graduate
+423,< High School
+427,Junior College
+433,Graduate
+434,Graduate
+436,High School
+437,High School
+438,< High School
+441,High School
+444,High School
+446,Bachelors
+447,Bachelors
+448,Bachelors
+449,Bachelors
+452,High School
+453,Graduate
+455,< High School
+456,Graduate
+457,Graduate
+458,Graduate
+460,Bachelors
+461,Graduate
+463,High School
+464,High School
+468,Graduate
+469,Graduate
+470,< High School
+474,Graduate
+477,High School
+480,High School
+482,High School
+484,Graduate
+486,Junior College
+487,< High School
+488,High School
+492,< High School
+494,Junior College
+496,High School
+501,Junior College
+504,Junior College
+505,Graduate
+507,High School
+510,Bachelors
+511,Junior College
+513,Junior College
+514,Graduate
+515,Bachelors
+516,Graduate
+517,Junior College
+518,Graduate
+523,< High School
+525,High School
+526,Junior College
+528,Graduate
+529,Bachelors
+530,High School
+531,Graduate
+536,High School
+537,Junior College
+539,High School
+540,High School
+548,Junior College
+549,< High School
+552,High School
+553,Bachelors
+555,Bachelors
+559,Graduate
+560,High School
+562,High School
+564,Junior College
+572,High School
+577,Junior College
+581,Junior College
+582,Junior College
+586,Bachelors
+588,Graduate
+591,High School
+593,High School
+595,Graduate
+602,High School
+604,< High School
+610,Junior College
+611,Bachelors
+613,High School
+615,Junior College
+616,High School
+618,Junior College
+619,Junior College
+622,< High School
+625,Bachelors
+626,High School
+630,Junior College
+632,High School
+635,High School
+636,Graduate
+641,Graduate
+648,High School
+650,High School
+652,High School
+653,High School
+657,Graduate
+660,Bachelors
+661,Bachelors
+666,Graduate
+669,High School
+670,High School
+675,Junior College
+676,High School
+678,High School
+680,High School
+682,High School
+684,Graduate
+691,Junior College
+693,Bachelors
+694,High School
+697,High School
+700,High School
+701,Junior College
+704,Graduate
+705,Graduate
+710,High School
+713,Graduate
+714,Bachelors
+717,Graduate
+720,Bachelors
+721,Bachelors
+723,Graduate
+724,Bachelors
+727,Bachelors
+729,< High School
+733,Bachelors
+734,Bachelors
+735,Bachelors
+737,High School
+738,High School
+740,Graduate
+741,High School
+744,High School
+748,Junior College
+749,Graduate
+751,Bachelors
+752,High School
+753,Junior College
+755,Graduate
+756,High School
+759,Junior College
+761,Graduate
+764,High School
+766,High School
+768,High School
+769,Graduate
+772,Bachelors
+774,< High School
+778,High School
+779,Bachelors
+780,High School
+784,High School
+785,Bachelors
+788,Graduate
+795,High School
+796,Bachelors
+797,Graduate
+799,Bachelors
+800,High School
+801,Bachelors
+803,High School
+804,Bachelors
+805,Bachelors
+806,< High School
+808,High School
+812,Junior College
+814,High School
+815,Bachelors
+819,High School
+821,Graduate
+823,High School
+824,High School
+825,Junior College
+827,High School
+828,Bachelors
+831,Bachelors
+832,High School
+833,High School
+838,High School
+839,Bachelors
+842,High School
+843,Bachelors
+849,High School
+850,High School
+853,High School
+855,< High School
+858,High School
+859,High School
+860,High School
+861,High School
+862,High School
+863,High School
+866,High School
+871,Junior College
+873,Graduate
+874,High School
+880,Junior College
+881,Graduate
+882,Graduate
+884,Graduate
+892,Bachelors
+895,High School
+896,Graduate
+898,Graduate
+902,High School
+904,Graduate
+905,High School
+906,Graduate
+911,Graduate
+914,Graduate
+916,Graduate
+919,Graduate
+920,High School
+921,Graduate
+924,< High School
+926,High School
+931,Bachelors
+932,High School
+934,High School
+939,Bachelors
+941,Bachelors
+944,Graduate
+946,Graduate
+947,Bachelors
+953,Graduate
+954,Graduate
+955,Graduate
+960,High School
+964,Graduate
+969,Bachelors
+977,High School
+982,Graduate
+986,Graduate
+988,Bachelors
+991,Graduate
+992,High School
+993,Bachelors
+995,Junior College
+998,Bachelors
+999,Bachelors
+1000,Bachelors
+1007,< High School
+1008,High School
+1011,High School
+1015,Graduate
+1018,Bachelors
+1019,Bachelors
+1023,Bachelors
+1028,< High School
+1029,High School
+1030,High School
+1039,Junior College
+1043,High School
+1044,Graduate
+1048,Junior College
+1049,Graduate
+1050,High School
+1052,High School
+1055,Bachelors
+1056,High School
+1057,Junior College
+1059,High School
+1061,Bachelors
+1062,Graduate
+1065,Graduate
+1066,High School
+1068,Bachelors
+1071,Bachelors
+1072,High School
+1080,High School
+1081,High School
+1082,Graduate
+1085,High School
+1086,High School
+1087,High School
+1088,High School
+1090,Junior College
+1091,High School
+1093,High School
+1096,High School
+1100,High School
+1102,Graduate
+1106,High School
+1107,High School
+1108,High School
+1110,Graduate
+1115,Graduate
+1117,High School
+1122,< High School
+1123,Bachelors
+1128,Bachelors
+1129,Graduate
+1130,Graduate
+1131,Bachelors
+1134,Bachelors
+1135,Graduate
+1136,Graduate
+1138,Bachelors
+1140,Bachelors
+1149,High School
+1150,< High School
+1151,Graduate
+1152,High School
+1154,Graduate
+1158,Bachelors
+1162,Bachelors
+1163,Graduate
+1164,Bachelors
+1165,Graduate
+1168,Bachelors
+1169,High School
+1172,High School
+1176,Graduate
+1177,Graduate
+1178,High School
+1181,Junior College
+1183,High School
+1186,Bachelors
+1188,High School
+1191,High School
+1192,High School
+1193,Bachelors
+1195,Bachelors
+1197,Bachelors
+1199,Graduate
+1200,Bachelors
+1201,Graduate
+1206,Graduate
+1207,Graduate
+1212,High School
+1215,Bachelors
+1222,High School
+1224,Graduate
+1228,High School
+1230,Bachelors
+1235,High School
+1236,High School
+1237,Junior College
+1238,High School
+1244,High School
+1245,High School
+1248,< High School
+1250,Bachelors
+1252,Junior College
+1253,Graduate
+1256,High School
+1259,Graduate
+1260,Graduate
+1261,High School
+1265,Graduate
+1268,Graduate
+1272,Graduate
+1273,Graduate
+1280,High School
+1283,Bachelors
+1285,Graduate
+1287,Graduate
+1289,Graduate
+1290,Graduate
+1294,High School
+1295,Graduate
+1297,Bachelors
+1299,Graduate
+1303,Bachelors
+1304,Junior College
+1306,Bachelors
+1307,High School
+1308,High School
+1312,Junior College
+1315,Junior College
+1316,High School
+1317,Graduate
+1318,Bachelors
+1319,Junior College
+1322,High School
+1323,Bachelors
+1325,High School
+1326,Bachelors
+1327,High School
+1332,Graduate
+1334,Bachelors
+1336,Bachelors
+1338,High School
+1339,High School
+1344,Graduate
+1346,Graduate
+1347,High School
+1348,High School
+1349,Junior College
+1350,Bachelors
+1357,Bachelors
+1361,Bachelors
+1363,Bachelors
+1368,High School
+1370,Graduate
+1371,Junior College
+1376,Graduate
+1382,High School
+1384,High School
+1385,Bachelors
+1387,< High School
+1388,Graduate
+1394,< High School
+1398,Graduate
+1401,Bachelors
+1402,Junior College
+1406,< High School
+1409,Junior College
+1410,Junior College
+1411,High School
+1413,High School
+1417,High School
+1418,Bachelors
+1420,Bachelors
+1421,Junior College
+1427,Bachelors
+1429,Bachelors
+1431,Bachelors
+1434,High School
+1435,High School
+1437,Junior College
+1438,High School
+1442,High School
+1447,High School
+1448,Bachelors
+1451,Graduate
+1453,High School
+1457,High School
+1460,High School
+1463,High School
+1466,High School
+1470,Graduate
+1474,Graduate
+1477,Graduate
+1479,< High School
+1480,High School
+1484,High School
+1485,Graduate
+1489,Bachelors
+1490,High School
+1491,Graduate
+1495,Bachelors
+1498,< High School
+1504,High School
+1506,< High School
+1513,High School
+1514,Bachelors
+1519,Junior College
+1521,High School
+1523,High School
+1524,Graduate
+1526,High School
+1531,High School
+1535,High School
+1537,Bachelors
+1538,Bachelors
+1539,Bachelors
+1541,High School
+1544,High School
+1550,High School
+1553,Bachelors
+1554,Graduate
+1559,< High School
+1560,Bachelors
+1564,Bachelors
+1565,High School
+1566,High School
+1568,High School
+1569,High School
+1571,High School
+1572,Bachelors
+1573,High School
+1574,High School
+1576,Junior College
+1577,< High School
+1580,High School
+1581,Bachelors
+1582,Bachelors
+1585,Graduate
+1592,Bachelors
+1594,Bachelors
+1595,Bachelors
+1607,Graduate
+1608,High School
+1612,< High School
+1614,< High School
+1619,High School
+1621,High School
+1623,High School
+1625,Bachelors
+1627,Graduate
+1636,< High School
+1639,High School
+1641,Graduate
+1643,Graduate
+1647,High School
+1652,High School
+1653,Graduate
+1655,High School
+1657,High School
+1661,High School
+1667,Bachelors
+1669,Graduate
+1672,Junior College
+1673,High School
+1681,Graduate
+1683,Bachelors
+1684,Bachelors
+1686,Bachelors
+1687,Graduate
+1692,Bachelors
+1696,High School
+1704,Bachelors
+1707,Bachelors
+1708,Junior College
+1711,< High School
+1712,High School
+1716,Graduate
+1717,Bachelors
+1718,High School
+1720,Junior College
+1722,Bachelors
+1726,Graduate
+1727,Bachelors
+1732,High School
+1734,Graduate
+1736,Bachelors
+1738,Junior College
+1739,< High School
+1742,High School
+1743,High School
+1744,Junior College
+1745,Bachelors
+1748,Bachelors
+1750,High School
+1752,High School
+1755,High School
+1756,Bachelors
+1762,High School
+1763,High School
+1766,Bachelors
+1770,High School
+1773,High School
+1777,High School
+1778,High School
+1782,High School
+1784,Graduate
+1785,Bachelors
+1787,Bachelors
+1792,Bachelors
+1795,High School
+1798,Bachelors
+1806,High School
+1808,High School
+1809,Bachelors
+1812,High School
+1818,High School
+1820,High School
+1821,High School
+1822,High School
+1823,High School
+1824,Bachelors
+1826,High School
+1827,High School
+1828,High School
+1829,Bachelors
+1833,High School
+1835,Graduate
+1837,Bachelors
+1838,< High School
+1839,High School
+1840,High School
+1841,< High School
+1844,Junior College
+1845,Bachelors
+1850,Junior College
+1852,Bachelors
+1853,High School
+1855,High School
+1856,High School
+1857,Graduate
+1860,Bachelors
+1861,Junior College
+1864,Graduate
+1865,High School
+1869,High School
+1872,High School
+1877,Junior College
+1879,High School
+1881,High School
+1883,Bachelors
+1884,Bachelors
+1887,High School
+1888,High School
+1889,Bachelors
+1891,Graduate
+1895,Graduate
+1896,Bachelors
+1899,Bachelors
+1901,High School
+1908,Bachelors
+1910,Graduate
+1914,Bachelors
+1915,High School
+1917,High School
+1918,Graduate
+1923,Graduate
+1924,Bachelors
+1927,Bachelors
+1928,High School
+1930,High School
+1933,Bachelors
+1935,Junior College
+1936,Bachelors
+1941,Bachelors
+1942,Graduate
+1944,High School
+1949,Bachelors
+1950,Bachelors
+1954,Graduate
+1957,High School
+1960,Bachelors
+1961,High School
+1962,Graduate
+1964,High School
+1970,Graduate
+1974,High School
+1978,High School
+1980,Bachelors
+1985,Bachelors
+1986,Bachelors
+1988,Graduate
+1990,High School
+1995,High School
+1996,Bachelors
+1998,High School
+1999,High School
+2000,High School
+2003,Bachelors
+2006,Junior College
+2008,High School
+2010,High School
+2011,High School
+2019,High School
+2020,High School
+2023,High School
+2025,Bachelors
+2027,Bachelors
+2028,High School
+2029,Bachelors
+2030,High School
+2033,Graduate
+2034,Graduate
+2035,High School
+2037,High School
+2038,Bachelors
+2042,Bachelors
+2046,High School
+2049,High School
+2051,Bachelors
+2052,High School
+2053,High School
+2056,Junior College
+2057,High School
+2058,High School
+2060,< High School
+2063,High School
+2064,High School
+2065,High School
+2067,High School
+2068,Bachelors
+2072,Bachelors
+2075,High School
+2076,High School
+2077,Bachelors
+2078,High School
+2080,High School
+2089,Bachelors
+2090,< High School
+2093,High School
+2094,Graduate
+2095,High School
+2097,Graduate
+2099,High School
+2100,Junior College
+2103,Bachelors
+2104,< High School
+2106,Bachelors
+2108,Graduate
+2110,High School
+2112,Junior College
+2118,Junior College
+2119,Bachelors
+2124,Graduate
+2125,High School
+2135,Graduate
+2140,Bachelors
+2142,Junior College
+2144,High School
+2147,High School
+2151,Graduate
+2156,Graduate
+2157,High School
+2158,High School
+2163,High School
+2165,High School
+2170,< High School
+2172,Bachelors
+2176,High School
+2177,Bachelors
+2178,Bachelors
+2179,High School
+2182,Graduate
+2183,< High School
+2184,Junior College
+2185,High School
+2189,< High School
+2190,High School
+2194,High School
+2195,Graduate
+2197,Junior College
+2200,High School
+2204,Junior College
+2207,Graduate
+2209,Bachelors
+2212,Graduate
+2215,Graduate
+2219,High School
+2221,High School
+2223,High School
+2229,Bachelors
+2232,Junior College
+2233,Bachelors
+2234,Bachelors
+2237,High School
+2241,High School
+2246,Graduate
+2259,Graduate
+2262,Graduate
+2264,Graduate
+2266,Bachelors
+2267,Bachelors
+2268,Bachelors
+2269,Junior College
+2270,Bachelors
+2273,High School
+2278,Bachelors
+2279,High School
+2290,Graduate
+2292,Junior College
+2295,High School
+2304,High School
+2305,< High School
+2306,Junior College
+2309,Graduate
+2312,High School
+2314,Graduate
+2317,High School
+2319,Bachelors
+2320,Graduate
+2321,High School
+2327,High School
+2328,Bachelors
+2330,High School
+2335,Graduate
+2336,High School
+2342,High School
+2343,Bachelors
+2350,High School
+2351,< High School
+2352,< High School
+2353,High School
+2355,High School
+2357,Bachelors
+2364,Bachelors
+2367,High School
+2369,Bachelors
+2370,Graduate
+2377,High School
+2378,High School
+2380,High School
+2381,High School
+2382,High School
+2383,Graduate
+2386,High School
+2391,Bachelors
+2394,High School
+2396,< High School
+2397,Graduate
+2398,Bachelors
+2399,High School
+2402,< High School
+2406,Junior College
+2407,High School
+2408,Bachelors
+2412,High School
+2417,Graduate
+2421,Bachelors
+2425,High School
+2426,High School
+2433,Bachelors
+2434,Bachelors
+2435,High School
+2436,Bachelors
+2437,Bachelors
+2441,Junior College
+2448,Graduate
+2454,High School
+2460,High School
+2462,Graduate
+2463,Bachelors
+2466,High School
+2467,Bachelors
+2468,Bachelors
+2470,High School
+2474,Bachelors
+2478,Graduate
+2480,High School
+2481,Bachelors
+2489,Junior College
+2494,Graduate
+2495,High School
+2498,Graduate
+2501,High School
+2502,Bachelors
+2503,Bachelors
+2504,Graduate
+2515,High School
+2518,Junior College
+2520,Bachelors
+2521,High School
+2524,Bachelors
+2526,Bachelors
+2528,High School
+2533,High School
+2536,Bachelors
+2538,High School
+2541,Bachelors
+2543,Bachelors
+2544,High School
+2556,Graduate
+2557,Bachelors
+2558,High School
+2560,Bachelors
+2561,Bachelors
+2562,< High School
+2566,High School
+2567,High School
+2569,High School
+2571,Bachelors
+2575,High School
+2577,Graduate
+2579,Bachelors
+2581,Junior College
+2585,High School
+2588,Bachelors
+2594,Bachelors
+2597,Graduate
+2598,Bachelors
+2599,Bachelors
+2608,Graduate
+2610,High School
+2614,High School
+2617,High School
+2619,High School
+2620,High School
+2623,High School
+2627,High School
+2629,Bachelors
+2630,Graduate
+2634,High School
+2635,High School
+2639,Graduate
+2643,High School
+2646,Bachelors
+2651,High School
+2653,High School
+2655,< High School
+2658,Bachelors
+2661,High School
+2664,Graduate
+2665,< High School
+2668,High School
+2669,High School
+2674,Graduate
+2675,Graduate
+2676,High School
+2677,High School
+2679,High School
+2684,High School
+2686,Bachelors
+2687,Bachelors
+2688,High School
+2692,Graduate
+2697,Bachelors
+2701,Bachelors
+2702,High School
+2705,Bachelors
+2709,Junior College
+2712,High School
+2716,Junior College
+2717,Graduate
+2719,High School
+2726,Bachelors
+2729,< High School
+2733,High School
+2736,< High School
+2737,Graduate
+2739,High School
+2740,High School
+2741,Bachelors
+2742,Graduate
+2744,Junior College
+2746,High School
+2747,Bachelors
+2749,Graduate
+2752,High School
+2753,Graduate
+2756,Junior College
+2757,High School
+2758,< High School
+2759,Graduate
+2761,Bachelors
+2766,High School
+2769,High School
+2771,Bachelors
+2773,High School
+2774,Bachelors
+2775,High School
+2781,High School
+2782,Bachelors
+2783,High School
+2785,Bachelors
+2787,Graduate
+2791,High School
+2793,High School
+2794,Bachelors
+2799,Bachelors
+2801,High School
+2804,Bachelors
+2806,Graduate
+2807,Bachelors
+2810,Junior College
+2811,Graduate
+2814,High School
+2820,High School
+2822,High School
+2823,Junior College
+2824,Graduate
+2827,Bachelors
+2829,High School
+2835,Bachelors
+2836,High School
+2837,High School
+2839,Junior College
+2843,Graduate
+2844,Bachelors
+2847,Bachelors
+2849,Graduate
+2853,Junior College
+2859,High School
+2860,High School
+2862,Graduate
+2864,Bachelors
+2867,Bachelors
+2869,Bachelors
+2870,Graduate
+2872,Junior College
+2873,Graduate
+2874,Graduate
+2875,Graduate
+2876,High School
+2877,High School
+2880,High School
+2884,Bachelors
+2886,Bachelors
+2889,High School
+2892,Junior College
+2897,Junior College
+2901,Graduate
+2902,Graduate
+2903,High School
+2908,Bachelors
+2910,Graduate
+2913,< High School
+2918,High School
+2920,Bachelors
+2925,High School
+2927,Bachelors
+2929,High School
+2934,High School
+2941,High School
+2942,Graduate
+2944,Graduate
+2945,High School
+2949,Bachelors
+2955,High School
+2959,High School
+2966,High School
+2967,High School
+2970,High School
+2972,Graduate
+2973,High School
+2978,Bachelors
+2979,Junior College
+2984,Bachelors
+2985,High School
+2986,Bachelors
+2987,High School
+2988,Junior College
+2989,High School
+2992,High School
+2994,Junior College
+2996,High School
+2998,High School
+3001,Graduate
+3002,Graduate
+3005,Bachelors
+3009,High School
+3012,Bachelors
+3013,High School
+3019,Graduate
+3020,Graduate
+3021,High School
+3023,Junior College
+3026,< High School
+3027,< High School
+3028,Junior College
+3029,Bachelors
+3031,Bachelors
+3033,Graduate
+3034,Graduate
+3035,Junior College
+3036,Bachelors
+3037,< High School
+3043,Bachelors
+3047,Bachelors
+3050,Graduate
+3055,High School
+3057,High School
+3063,Bachelors
+3065,High School
+3067,High School
+3070,Bachelors
+3072,Bachelors
+3073,High School
+3075,Bachelors
+3078,High School
+3083,Graduate
+3084,Bachelors
+3088,High School
+3090,Junior College
+3091,Graduate
+3092,Bachelors
+3094,High School
+3095,< High School
+3097,Junior College
+3100,Bachelors
+3104,Graduate
+3108,Bachelors
+3114,High School
+3116,Junior College
+3117,Graduate
+3119,Bachelors
+3121,High School
+3122,High School
+3125,Bachelors
+3128,< High School
+3130,High School
+3131,High School
+3132,Junior College
+3140,High School
+3141,Graduate
+3145,Junior College
+3147,Bachelors
+3149,Junior College
+3151,Graduate
+3153,Graduate
+3154,Graduate
+3155,Graduate
+3159,Junior College
+3161,High School
+3163,High School
+3164,Graduate
+3166,High School
+3173,Graduate
+3174,High School
+3180,< High School
+3182,Graduate
+3192,High School
+3195,Bachelors
+3197,< High School
+3200,Bachelors
+3201,< High School
+3202,< High School
+3203,Graduate
+3204,High School
+3206,High School
+3207,High School
+3213,Bachelors
+3214,High School
+3215,Bachelors
+3216,Junior College
+3217,High School
+3219,Graduate
+3221,Graduate
+3222,Graduate
+3223,Junior College
+3224,Junior College
+3225,High School
+3228,Graduate
+3229,< High School
+3235,Bachelors
+3237,High School
+3238,Graduate
+3242,High School
+3244,Bachelors
+3246,Junior College
+3255,High School
+3256,High School
+3257,Bachelors
+3260,Bachelors
+3262,High School
+3265,Bachelors
+3266,Graduate
+3267,Graduate
+3269,Graduate
+3271,Bachelors
+3272,Graduate
+3274,Bachelors
+3275,Graduate
+3281,Bachelors
+3284,Bachelors
+3286,High School
+3287,High School
+3289,Bachelors
+3299,Graduate
+3308,Bachelors
+3314,Graduate
+3315,Bachelors
+3318,Bachelors
+3321,Graduate
+3322,High School
+3325,High School
+3326,High School
+3328,Junior College
+3333,Bachelors
+3335,Bachelors
+3338,Junior College
+3339,High School
+3344,Graduate
+3348,Graduate
+3349,Bachelors
+3351,Graduate
+3357,High School
+3360,Bachelors
+3361,High School
+3363,High School
+3365,Graduate
+3368,Bachelors
+3371,High School
+3372,Bachelors
+3373,Bachelors
+3378,Graduate
+3380,High School
+3382,High School
+3383,< High School
+3385,Bachelors
+3392,Junior College
+3393,Graduate
+3395,Junior College
+3398,Bachelors
+3401,High School
+3402,High School
+3408,Graduate
+3410,Junior College
+3412,Bachelors
+3413,High School
+3414,Graduate
+3417,High School
+3421,High School
+3423,High School
+3424,High School
+3425,Bachelors
+3426,Graduate
+3435,High School
+3438,Bachelors
+3440,Graduate
+3446,High School
+3447,Bachelors
+3448,High School
+3449,Graduate
+3455,High School
+3456,Bachelors
+3458,High School
+3465,Bachelors
+3466,Graduate
+3477,High School
+3481,Junior College
+3483,Bachelors
+3487,Bachelors
+3488,Junior College
+3491,< High School
+3492,Graduate
+3493,Bachelors
+3494,High School
+3495,Graduate
+3497,High School
+3502,Graduate
+3503,Junior College
+3505,Graduate
+3508,Bachelors
+3511,Graduate
+3512,Bachelors
+3515,High School
+3516,Bachelors
+3520,High School
+3521,< High School
+3522,High School
+3525,Graduate
+3526,Graduate
+3532,Junior College
+3533,Graduate
+3535,High School
+3537,Junior College
+3544,Junior College
+3545,Junior College
+3549,Bachelors
+3551,Graduate
+3552,High School
+3553,< High School
+3554,High School
+3559,Graduate
+3560,Junior College
+3561,Bachelors
+3563,High School
+3566,Graduate
+3571,Graduate
+3572,Bachelors
+3578,Graduate
+3579,High School
+3580,Bachelors
+3581,Graduate
+3583,High School
+3591,High School
+3596,High School
+3600,Junior College
+3602,< High School
+3603,Bachelors
+3604,Graduate
+3608,Junior College
+3610,High School
+3612,Junior College
+3613,Bachelors
+3615,High School
+3616,Junior College
+3618,Bachelors
+3619,High School
+3623,High School
+3626,High School
+3630,Junior College
+3632,High School
+3635,Bachelors
+3639,High School
+3641,Bachelors
+3643,Graduate
+3646,Bachelors
+3649,Junior College
+3650,High School
+3651,Bachelors
+3652,Bachelors
+3653,High School
+3657,Bachelors
+3658,High School
+3659,Bachelors
+3664,Bachelors
+3667,Graduate
+3668,Bachelors
+3674,High School
+3677,Graduate
+3678,Graduate
+3679,Graduate
+3680,Graduate
+3681,High School
+3686,High School
+3688,Bachelors
+3691,Graduate
+3692,Graduate
+3694,Bachelors
+3696,Bachelors
+3698,Junior College
+3700,High School
+3702,Junior College
+3703,High School
+3708,Bachelors
+3709,Junior College
+3712,Bachelors
+3721,High School
+3726,< High School
+3727,High School
+3728,Bachelors
+3729,High School
+3731,Bachelors
+3735,Bachelors
+3738,< High School
+3740,High School
+3741,High School
+3747,Graduate
+3755,High School
+3756,High School
+3757,Graduate
+3760,Bachelors
+3761,< High School
+3765,Bachelors
+3766,High School
+3768,Graduate
+3769,Bachelors
+3771,Bachelors
+3777,High School
+3779,High School
+3783,Bachelors
+3788,Junior College
+3790,Graduate
+3793,Bachelors
+3795,Bachelors
+3798,Junior College
+3801,High School
+3806,High School
+3809,High School
+3810,Graduate
+3812,Junior College
+3813,Bachelors
+3814,High School
+3819,High School
+3821,High School
+3822,High School
+3824,Bachelors
+3825,Graduate
+3829,High School
+3843,Graduate
+3844,High School
+3846,High School
+3848,Junior College
+3849,Bachelors
+3850,High School
+3852,Bachelors
+3856,Junior College
+3859,Bachelors
+3864,Bachelors
+3871,High School
+3874,High School
+3875,Graduate
+3876,Graduate
+3881,High School
+3892,High School
+3895,Junior College
+3896,Graduate
+3902,Junior College
+3908,High School
+3912,Bachelors
+3915,Bachelors
+3916,Graduate
+3918,Bachelors
+3920,Bachelors
+3921,Bachelors
+3924,High School
+3925,Graduate
+3930,Bachelors
+3932,Graduate
+3934,Graduate
+3936,Bachelors
+3937,High School
+3943,Bachelors
+3945,Bachelors
+3947,Graduate
+3950,Graduate
+3952,High School
+3953,Graduate
+3955,High School
+3956,Bachelors
+3972,High School
+3977,High School
+3978,High School
+3981,High School
+3982,High School
+3985,High School
+3988,Bachelors
+3992,Graduate
+3996,High School
+3997,High School
+4001,High School
+4003,Graduate
+4007,Graduate
+4013,High School
+4020,Bachelors
+4021,Bachelors
+4026,High School
+4031,Graduate
+4038,High School
+4039,Graduate
+4047,High School
+4049,High School
+4052,Bachelors
+4053,High School
+4055,Bachelors
+4056,High School
+4058,Graduate
+4060,Graduate
+4061,High School
+4062,Graduate
+4064,Bachelors
+4069,Graduate
+4072,Bachelors
+4078,High School
+4082,Junior College
+4083,Bachelors
+4090,Bachelors
+4093,High School
+4095,High School
+4097,< High School
+4098,Bachelors
+4101,Graduate
+4108,Bachelors
+4109,Bachelors
+4113,High School
+4114,< High School
+4116,Graduate
+4117,Graduate
+4118,High School
+4122,Graduate
+4128,High School
+4130,Graduate
+4135,High School
+4137,Bachelors
+4139,Bachelors
+4143,Bachelors
+4145,High School
+4147,High School
+4148,Bachelors
+4150,Bachelors
+4154,Graduate
+4157,High School
+4159,< High School
+4160,High School
+4164,Graduate
+4166,Bachelors
+4169,Graduate
+4172,Bachelors
+4173,Junior College
+4176,Bachelors
+4179,High School
+4184,Graduate
+4185,Graduate
+4187,Bachelors
+4190,Bachelors
+4191,Graduate
+4193,High School
+4194,High School
+4195,High School
+4201,Graduate
+4208,Bachelors
+4211,Junior College
+4215,High School
+4219,High School
+4225,High School
+4228,Junior College
+4235,High School
+4236,Bachelors
+4237,< High School
+4239,Junior College
+4240,High School
+4242,Bachelors
+4244,Bachelors
+4247,High School
+4249,Graduate
+4250,Bachelors
+4252,Junior College
+4257,Bachelors
+4266,Bachelors
+4267,Bachelors
+4268,Graduate
+4269,High School
+4270,Bachelors
+4271,High School
+4272,Graduate
+4277,High School
+4280,High School
+4283,High School
+4287,Bachelors
+4288,High School
+4292,High School
+4293,Bachelors
+4295,High School
+4297,Bachelors
+4301,Bachelors
+4303,Graduate
+4304,Graduate
+4308,Graduate
+4309,High School
+4311,High School
+4313,High School
+4314,Bachelors
+4315,High School
+4316,High School
+4319,< High School
+4321,Bachelors
+4323,Bachelors
+4324,Bachelors
+4326,Junior College
+4328,Bachelors
+4333,< High School
+4334,Bachelors
+4338,Bachelors
+4341,Graduate
+4345,Bachelors
+4346,Junior College
+4347,Graduate
+4348,High School
+4351,Bachelors
+4352,Bachelors
+4353,Graduate
+4354,Graduate
+4355,High School
+4360,Bachelors
+4367,High School
+4368,Junior College
+4369,Bachelors
+4370,High School
+4373,High School
+4378,Bachelors
+4382,< High School
+4389,High School
+4390,Graduate
+4393,Bachelors
+4395,Graduate
+4396,Bachelors
+4399,High School
+4402,Graduate
+4407,High School
+4411,Bachelors
+4414,High School
+4416,Junior College
+4419,Bachelors
+4428,Bachelors
+4429,Bachelors
+4432,Bachelors
+4437,Junior College
+4439,High School
+4441,High School
+4442,High School
+4443,Graduate
+4445,Graduate
+4450,Junior College
+4455,High School
+4456,High School
+4457,Graduate
+4458,Bachelors
+4459,Bachelors
+4460,High School
+4462,Junior College
+4463,Bachelors
+4467,High School
+4468,Bachelors
+4470,Graduate

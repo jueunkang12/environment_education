@@ -31,25 +31,68 @@ clean_data <- clean_names(raw_data) |>
     grnmoney
   )
   
-#### Clean data to show respondents' degree and count ####
+### Clean data to show respondents' degree and count ###
 degrees_clean <- clean_data |>
   select(
     id,
     degree
-  )
+  ) 
 
-#### Clean data to show respondents' willingness to pay towards environment ####
+### Clean data to show respondents' willingness to pay towards environment ###
 willingness_clean <- clean_data |>
   select(
     id,
     grnprice
   )
 
-#### Clean data to show respondents who donated towards environmental group ####
+### Clean data to show respondents who donated towards environmental group ###
 donation_clean <- clean_data |>
   select(
     id,
     grnmoney
+  )
+
+#### Change from numeric to character ####
+degrees_clean$degree <- as.character(degrees_clean$degree)
+willingness_clean$grnprice <- as.character(willingness_clean$grnprice)
+donation_clean$grnmoney <- as.character(donation_clean$grnmoney)
+
+#### Change the values based on the code book ####
+
+degrees_clean <- degrees_clean |> 
+  mutate(
+    degree =
+      case_match(
+        degree,
+        "0" ~ "< High School",
+        "1" ~ "High School",
+        "2" ~ "Junior College",
+        "3" ~ "Bachelors",
+        "4" ~ "Graduate"
+      )
+  )
+
+willingness_clean <- willingness_clean |>
+  mutate(
+    grnprice =
+      case_match(
+        grnprice,
+        "1" ~ "Very Willing",
+        "2" ~ "Fairly Willing",
+        "3" ~ "Neutral",
+        "4" ~ "Fairly Unwilling",
+        "5" ~ "Very Unwilling"
+      )
+  )
+
+donation_clean <- donation_clean |>
+  mutate(
+    grnmoney =
+      case_match(
+        grnmoney,
+        "1" ~ "Yes",
+        "2" ~ "No"
+      )
   )
 
 #### Save data ####
