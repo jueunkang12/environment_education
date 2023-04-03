@@ -22,6 +22,7 @@ library(tidyverse)
 library(palmerpenguins)
 library(haven)
 library(here)
+library(dplyr)
 
 # respondents' degree obtained 
 clean_data_degree <- read_csv("~/Documents/environment_education/inputs/data/degrees_clean.csv")
@@ -71,9 +72,13 @@ Attributes go here
 #| fig-width: 8
 #| fig-height: 4
 
-clean_data_degree |>
-  ggplot(aes(x = degree)) +
-  geom_bar(fill = "slateblue1") +
+clean_data_degree$degree <-
+  factor(degrees_clean$degree,
+         levels = c("< High School", "High School", "Junior College", "Bachelors", "Graduate"))
+
+degree_obtained |>
+  ggplot(aes(x = degree, y = freq)) +
+  geom_col(fill = "slateblue1") +
   theme_minimal() +
   labs(x = "Degree Obtained",
        y = "Number of Respondents",
@@ -82,13 +87,16 @@ clean_data_degree |>
 
 @fig-1 talk more about it.
 
-
 ```{r}
 #| label: fig-2
 #| fig-cap: More bills of penguins
 #| echo: false
 #| fig-width: 8
 #| fig-height: 4
+
+clean_data_willingness$grnprice <-
+  factor(willingness_clean$grnprice,
+         levels = c("Very Unwilling", "Fairly Unwilling", "Neutral", "Fairly Willing", "Very Willing"))
 
 clean_data_willingness |>
   ggplot(aes(x = grnprice)) +
@@ -100,26 +108,10 @@ clean_data_willingness |>
 ```
 @fig-2 talks about.
 
-```{r}
-#| label: fig-3
-#| fig-cap: More bills of penguins
-#| echo: false
-#| fig-width: 8
-#| fig-height: 4
-
-
-
-
-```
-
-\newpage
-Talk way more about it. 
-
-
 # Results
 
 ```{r}
-#| label: fig-4
+#| label: fig-3
 #| fig-cap: More bills of penguins
 #| echo: false
 #| fig-width: 8
@@ -141,7 +133,7 @@ degree_and_willingness |>
 @fig-4 talks about. 
 
 ```{r}
-#| label: fig-5
+#| label: fig-4
 #| fig-cap: More bills of penguins
 #| echo: false
 #| fig-width: 8

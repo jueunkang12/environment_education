@@ -86,18 +86,30 @@ degrees_clean <-
         )
       )
 
-willingness_clean <- willingness_clean |>
+willingness_clean <- 
+  willingness_clean |>
   mutate(
     grnprice =
       case_match(
         grnprice,
-        "1" ~ "Very Willing",
-        "2" ~ "Fairly Willing",
-        "3" ~ "Neutral",
-        "4" ~ "Fairly Unwilling",
-        "5" ~ "Very Unwilling"
+        "very willing" ~ "Very Willing",
+        "fairly willing" ~ "Fairly Willing",
+        "neither willing nor unwilling" ~ "Neutral",
+        "fairly unwilling" ~ "Fairly Unwilling",
+        "very unwilling" ~ "Very Unwilling"
       )
-  )
+    ) |>
+      mutate(
+        grnprice = factor(grnprice),
+        grnprice = fct_relevel(
+        grnprice,
+        "Very Unwilling",
+        "Fairly Unwilling",
+        "Neutral",
+        "Fairly Willing",
+        "Very Willing"
+      )
+    )
 
 donation_clean <- donation_clean |>
   mutate(
@@ -108,21 +120,6 @@ donation_clean <- donation_clean |>
         "2" ~ "No"
       )
   )
-
-#### Reorder variables in graph showing respondents' degree ####
-degrees_clean <- degrees_clean |>
-  mutate(
-    degree =
-      fct_relevel(
-        degree,
-        "< High School",
-        "High School",
-        "Junior College",
-        "Bachelors",
-        "Graduate"
-      )
-  )
-
 
 #### Save data ####
 write_csv(clean_data, "~/Documents/environment_education/inputs/data/clean_data.csv")
