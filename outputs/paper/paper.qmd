@@ -98,8 +98,7 @@ clean_data_willingness |>
        y = "Number of respondents",
        title = "Willingness to donate to environmental protection")
 ```
-\newpage
-Talk way more about it. 
+@fig-2 talks about.
 
 ```{r}
 #| label: fig-3
@@ -139,16 +138,26 @@ degree_and_willingness |>
        title = "Respondents' Degree and Willingness to Pay Towards Environment")
 
 ```
-\newpage
-Talk way more about it. 
+@fig-4 talks about. 
 
 ```{r}
+#| label: fig-5
+#| fig-cap: More bills of penguins
+#| echo: false
+#| fig-width: 8
+#| fig-height: 4
 
+
+#clean_data |>
+#  ggplot(mapping = aes(x = degrees_clean, fill = grnmoney)) +
+# geom_bar(position = "dodge2")
 
 
 ```
 
 # Discussion
+
+textbook 5.2.1
 
 ## First discussion point {#sec-first-point}
 

@@ -12,9 +12,11 @@ library(janitor)
 library(tidyr)
 library(haven)
 library(dplyr)
+library(labelled)
 
 #### Reads in data to be cleaned ####
 raw_data <- read_dta("~/Documents/environment_education/inputs/data/GSS2021.dta")
+raw_data <- labelled::to_factor(raw_data)
 
 #### Select relevant variables ####
 clean_data <- clean_names(raw_data) |>
@@ -59,18 +61,30 @@ donation_clean$grnmoney <- as.character(donation_clean$grnmoney)
 
 #### Change the values based on the code book ####
 
-degrees_clean <- degrees_clean |> 
+degrees_clean <- 
+  degrees_clean |> 
   mutate(
     degree =
       case_match(
         degree,
-        "0" ~ "< High School",
-        "1" ~ "High School",
-        "2" ~ "Junior College",
-        "3" ~ "Bachelors",
-        "4" ~ "Graduate"
+        "less than high school" ~ "< High School",
+        "high school" ~ "High School",
+        "associate/junior college" ~ "Junior College",
+        "bachelor's" ~ "Bachelors",
+        "graduate" ~ "Graduate"
       )
-  )
+    ) |>
+      mutate(
+        degree = factor(degree),
+        degree = fct_relevel(
+          degree,
+          "< High School",
+          "High School",
+          "Junior College",
+          "Bachelors",
+          "Graduate"
+        )
+      )
 
 willingness_clean <- willingness_clean |>
   mutate(
@@ -108,7 +122,6 @@ degrees_clean <- degrees_clean |>
         "Graduate"
       )
   )
-
 
 
 #### Save data ####
