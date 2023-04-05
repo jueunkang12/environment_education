@@ -116,8 +116,8 @@ donation_clean <- donation_clean |>
     grnmoney =
       case_match(
         grnmoney,
-        "1" ~ "Yes",
-        "2" ~ "No"
+        "no, i have not" ~ "No",
+        "yes, i have" ~ "Yes"
       )
   )
 

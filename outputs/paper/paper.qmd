@@ -1,12 +1,12 @@
 ---
-title: "This is my paper title"
-subtitle: "This is my subtitle"
+title: "GSS Education and Environment"
+subtitle: "Attitude-behaviour gap in environmental protection by degree obtained"
 author: 
   - Jueun Kang
-thanks: "Code and data are available at: LINK"
+thanks: "Code and data are available at: https://github.com/jueunkang12/environment_education"
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "This paper discusses the relationship between the level of education obtained and the attitude-behaviour gap towards environmental protection. We do this by comparing the respondents’ willingness to pay money for environmental protection to whether they actually donate money towards the environment, by varying levels of degrees obtained. We find that respondents with highschool as their highest obtained degree have the highest attitude-behaviour gap; they claim that they would pay money for environmental protection, but have not donated in the past five years towards environmental protection. These findings matter as we are able to get insight into which group of respondents require more support in translating their positive attitudes towards environmental protection into action. "
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -19,7 +19,6 @@ bibliography: references.bib
 
 #### Quarto workspace setup and reading csv's into quarto ####
 library(tidyverse)
-library(palmerpenguins)
 library(haven)
 library(here)
 library(dplyr)
@@ -39,76 +38,106 @@ clean_data_donation <- read_csv("~/Documents/environment_education/inputs/data/d
 
 # Introduction
 
-You can and should cross-reference sections and sub-sections. For instance, @sec-data and @sec-first-point. 
+As the condition of the natural environment continues to decline, concerns around the environment, including climate change, loss of biodiversity, and pollution, have grown [@condition]. With increased public attention, environmental and social development initiatives have emphasised environmental change as a social justice issue, rather than merely a physical one; people with a lower social, economic, and political advantage face the negative consequences of these environmental problems [@justice]. In order to address these issues, the need for collective action and effort has been highlighted, however, there is often a discrepancy between people’s attitudes and their behaviours [@campaign]. This phenomenon comes from social psychology, called the “attitude-behaviour gap”, better defined as: the mismatch between how someone feels about a certain behaviour in comparison to their actual behaviour [@gap]. 
 
+Education has been recognised as a crucial tool in promoting social change, through providing knowledge and awareness on positive social impacts - “education therefore comes prior to social change” [@education]. Particularly among younger age groups, education helps eradicate ignorance, instilling principles which will not only benefit individuals but social at large [@education]. While the importance of education in fostering change is largely studied and recognised, there remains a gap in exploring the relationship between one’s degree and their tendency to exhibit environmentally responsible behaviour [@campaign]. Specifically, there is a lack of research surrounding the attitude-behaviour gap in relation to environmental action among individuals with different education levels obtained. 
 
+This paper finds that the majority of respondents have obtained a high school degree as their highest level of education. In addition, the majority of respondents state that they are fairly willing to donate towards environmental protection in the GSS interview. However, when we analysed the potential of the attitude-behaviour phenomenon, by comparing respondents’ willingness to donate to respondents’ actual donation behaviour in the last five years, we find that the highest mismatch is of respondents with a highschool education as their highest obtained degree. This study is important as it provides implications for the implementation of environmental education initiatives. By identifying the education levels associated with the largest attitude-behaviour gap in terms of environmental action, our findings can help in modifying educational interventions to specific educational levels. 
+
+The remainder of this paper has four sections. In section 2, we explain the data source and methodology used for data collection, data cleaning, variables used, potential biases and ethical issues. In section 3, we present a logistic regression model, estimating the relationship between a respondent’s willingness to donate money, their education, and whether they actually donate money. In section 4, the final model is interpreted along with all findings regarding respondents’ willingness and respondents’ behaviour, in relation to their education. Finally, a discussion is carried out, providing the implications of this paper’s findings, as well as the weaknesses and future steps of this investigation. 
+
+This paper uses R [@citeR] for data cleaning and analysis, R packages *tidyverse* [@tidyverse], *tidyr* [@tidyr], *janitor* [@janitor], *here* [@here], *dplyr* [@dplyr], *labelled* [@labelled], and *ggplot2* [@ggplot2], to create the figures, and *haven* [@haven] to read the dta files. 
+
+\newpage
 
 # Data {#sec-data}
 
-Our data is of penguins (@fig-bills).
+Our data is of penguins.
 
 ## Data Source and Methodology
 
-Talk about data source and methodology
+Talk about data source and methodology.
 
 ### Strengths and Weaknesses of GSS
 
-Talk about strengths and weaknesses of GSS
+Talk about strengths and weaknesses of GSS.
 
 ### Potential Ethical and Bias Issues
 
-Talk about potential ethical and bias issues
+Talk about potential ethical and bias issues.
 
 ### Attributes
 
-Attributes go here
+Attributes go here.
 
 
 ## Exploration
 
+\newpage
+
+
 ```{r}
 #| label: fig-1
-#| fig-cap: More bills of penguins
+#| fig-cap: Highest Degree of Education Obtained by Respondents
 #| echo: false
 #| fig-width: 8
 #| fig-height: 4
 
-degree_obtained |>
-  ggplot(aes(x = degree, y = freq)) +
-  geom_col(fill = "slateblue1") +
+clean_data_degree$degree <-
+  factor(clean_data_degree$degree,
+         levels = c("< High School", "High School", "Junior College", "Bachelors", "Graduate"))
+
+clean_data_degree |>
+  ggplot(aes(x = degree)) +
+  geom_bar(fill = "turquoise4") +
   theme_minimal() +
-  labs(x = "Degree Obtained",
+  labs(x = "Highest Degree Obtained",
        y = "Number of Respondents",
-       title = "Degree obtained by respondents")
+       title = "Degree Obatined by Respondents")
 ```
 
 @fig-1 talk more about it.
 
+\newpage
+
 ```{r}
 #| label: fig-2
-#| fig-cap: More bills of penguins
+#| fig-cap: Respondents' willingness to pay to protect the environment
 #| echo: false
 #| fig-width: 8
 #| fig-height: 4
 
+clean_data_willingness$grnprice <-
+  factor(clean_data_willingness$grnprice,
+         levels = c("Very Unwilling", "Fairly Unwilling", "Neutral", "Fairly Willing", "Very Willing"))
+
 clean_data_willingness |>
   ggplot(aes(x = grnprice)) +
-  geom_bar(fill = "slateblue1") +
+  geom_bar(fill = "turquoise4") +
   theme_minimal() +
-  labs(x = "Willingness to donate",
-       y = "Number of respondents",
-       title = "Willingness to donate to environmental protection")
+  labs(x = "Willingness to Pay",
+       y = "Number of Respondents",
+       title = "Willingness to Pay for Environmental Protection")
 ```
 @fig-2 talks about.
+
+\newpage
+
+# Model
 
 # Results
 
 ```{r}
 #| label: fig-3
-#| fig-cap: More bills of penguins
+#| fig-cap: Respondents' degree and willingness to pay to protect the environment
 #| echo: false
 #| fig-width: 8
 #| fig-height: 4
+
+degree_and_willingness <-
+  clean_data_degree |>
+  left_join(clean_data_willingness, by = join_by(id), suffix = c("Degree", "Willingness"))
+
 
 
 degree_and_willingness |>
@@ -117,24 +146,45 @@ degree_and_willingness |>
   theme_minimal() +
   labs(x = "Degree Obtained by Respondents",
        y = "Willingness to Pay Towards Environmental Protection",
-       title = "Respondents' Degree and Willingness to Pay Towards Environment")
+       title = "Degree and Willingness to Pay For Environment")
 
 ```
-@fig-4 talks about. 
+@fig-3 talks about. 
+
+\newpage
+
 
 ```{r}
 #| label: fig-4
-#| fig-cap: More bills of penguins
+#| fig-cap: Respondents' degree and donation made for environmental protection
 #| echo: false
 #| fig-width: 8
 #| fig-height: 4
 
+clean_data_degree$degree <-
+  factor(clean_data_degree$degree,
+         levels = c("< High School", "High School", "Junior College", "Bachelors", "Graduate"))
+
+degree_and_donation <-
+  clean_data_degree |>
+  left_join(clean_data_donation, by = join_by(id), suffix = c("Degree", "Donation"))
+
+degree_and_donation |>
+  ggplot(mapping = aes(x = degree, fill = grnmoney)) +
+  geom_bar(position = "dodge2") +
+  theme_minimal() +
+  scale_fill_brewer(palette = "Paired") +
+  labs(x = "Highest Degree Obtained",
+       y = "Number of Respondents",
+       title = "Willingness and Donation Made by Degree")
 
 ```
 
+@fig-4 talks about. 
+
 # Discussion
 
-textbook 5.2.1
+My discussion here. 
 
 ## First discussion point {#sec-first-point}
 
