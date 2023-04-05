@@ -93,7 +93,7 @@ clean_data_degree |>
   theme_minimal() +
   labs(x = "Highest Degree Obtained",
        y = "Number of Respondents",
-       title = "Degree Obatined by Respondents")
+       title = "Degree Obtained by Respondents")
 ```
 
 @fig-1 talk more about it.
@@ -176,7 +176,7 @@ degree_and_donation |>
   scale_fill_brewer(palette = "Paired") +
   labs(x = "Highest Degree Obtained",
        y = "Number of Respondents",
-       title = "Willingness and Donation Made by Degree")
+       title = "Donation Made to Environment by Degree")
 
 ```
 
