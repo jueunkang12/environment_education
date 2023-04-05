@@ -23,6 +23,7 @@ library(palmerpenguins)
 library(haven)
 library(here)
 library(dplyr)
+library(labelled)
 
 # respondents' degree obtained 
 clean_data_degree <- read_csv("~/Documents/environment_education/inputs/data/degrees_clean.csv")
@@ -72,10 +73,6 @@ Attributes go here
 #| fig-width: 8
 #| fig-height: 4
 
-clean_data_degree$degree <-
-  factor(degrees_clean$degree,
-         levels = c("< High School", "High School", "Junior College", "Bachelors", "Graduate"))
-
 degree_obtained |>
   ggplot(aes(x = degree, y = freq)) +
   geom_col(fill = "slateblue1") +
@@ -93,10 +90,6 @@ degree_obtained |>
 #| echo: false
 #| fig-width: 8
 #| fig-height: 4
-
-clean_data_willingness$grnprice <-
-  factor(willingness_clean$grnprice,
-         levels = c("Very Unwilling", "Fairly Unwilling", "Neutral", "Fairly Willing", "Very Willing"))
 
 clean_data_willingness |>
   ggplot(aes(x = grnprice)) +
@@ -117,9 +110,6 @@ clean_data_willingness |>
 #| fig-width: 8
 #| fig-height: 4
 
-degree_and_willingness <-
-  clean_data_degree |>
-  left_join(clean_data_willingness, by = join_by(id), suffix = c("Degree", "Willingness"))
 
 degree_and_willingness |>
   ggplot(aes(x = degree, y = grnprice)) +
