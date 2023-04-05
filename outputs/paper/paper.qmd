@@ -140,11 +140,6 @@ degree_and_willingness |>
 #| fig-height: 4
 
 
-#clean_data |>
-#  ggplot(mapping = aes(x = degrees_clean, fill = grnmoney)) +
-# geom_bar(position = "dodge2")
-
-
 ```
 
 # Discussion
