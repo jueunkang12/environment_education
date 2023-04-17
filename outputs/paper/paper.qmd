@@ -6,7 +6,7 @@ author:
 thanks: "Code and data are available at: https://github.com/jueunkang12/environment_education"
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
-abstract: "The attitude-behaviour gap is a phenomenon in which individuals’ claims do not align with their actions, often observed in the context of social change efforts. The following paper investigates the relationship between respondents’ attitude-behaviour gap towards environmental protection, and their education level obtained. Using data from the 2021 GSS, we find that respondents whose highest obtained degree is highschool exhibit the largest attitude-behaviour gap; despite claiming a willingness to pay higher prices to protect the environment, they have not donated towards environmental protection in the past five years. These findings matter as we are able to get insight into the group of respondents who require more support in translating their positive attitudes towards environmental protection into action."
+abstract: "The attitude-behaviour gap is a phenomenon in which individuals’ claims do not align with their actions, often observed in the context of social change efforts. This paper investigates the relationship between respondents’ attitude-behaviour gap towards environmental protection, and their education level obtained. Using data from the US 2021 GSS, we find that respondents whose highest obtained degree is highschool exhibit the largest attitude-behaviour gap; despite claiming a willingness to pay higher prices to protect the environment, they have not donated towards environmental protection in the past five years. These findings identify the groups of respondents who require more support in translating their positive attitudes towards environmental protection into action."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -25,13 +25,13 @@ library(dplyr)
 library(labelled)
 
 # respondents' degree obtained 
-clean_data_degree <- read_csv("~/Documents/environment_education/inputs/data/degrees_clean.csv")
+clean_data_degree <- read_csv(here::here("inputs/data/degrees_clean.csv"))
 
 # respondents' willingness to donate towards protecting the environment
-clean_data_willingness <- read_csv("~/Documents/environment_education/inputs/data/willingness_clean.csv")
+clean_data_willingness <- read_csv(here::here("inputs/data/willingness_clean.csv"))
 
 # respondents who donated to an environmental group
-clean_data_donation <- read_csv("~/Documents/environment_education/inputs/data/donation_clean.csv")
+clean_data_donation <- read_csv(here::here("inputs/data/donation_clean.csv"))
 
 ```
 
@@ -46,11 +46,11 @@ This paper finds that the most number of respondents have high school as their h
 
 The remainder of this paper has four sections. In section 2, we explain the data source and methodologies used for data collection, data cleaning, variables used, potential biases and ethical issues. In section 3, we present a logistic regression model, estimating the relationship between a respondent’s willingness to donate money, their education, and whether they actually donate money. In section 4, the final results and model is interpreted along with all findings regarding respondents’ willingness and respondents’ donation behaviour, in relation to their education level obtained. Finally, a discussion is carried out, providing the implications of this paper’s findings, as well as the weaknesses and future steps of this investigation. 
 
-This paper uses R [@citeR] for data cleaning and analysis, R packages *tidyverse* [@tidyverse], *here* [@here], *dplyr* [@dplyr], *labelled* [@labelled], and *ggplot* [@ggplot], to create the figures, and *haven* [@haven] to read the dta files. 
+This paper uses R [@citeR] for data cleaning and analysis, R packages *tidyverse* [@tidyverse], *here* [@here], *dplyr* [@dplyr], *labelled* [@labelled], and *ggplot* [@ggplot2], to create the figures, and *haven* [@haven] to read the dta files. 
 
 \newpage
 
-# Data {#sec-data}
+# Data
 
 ## Data Source and Methodology
 
@@ -66,12 +66,11 @@ Talk about strengths and weaknesses of GSS.
 
 This paper uses an individual year dataset, summarising variables specific to 2021. Through data cleaning the following variables are kept: DEGREE, GRNPRICE, and GRNMONEY. For variable DEGREE, respondents of the 2021 GSS Cross-section survey, were asked to provide the highest degree obtained: ranging from 0-4, corresponding to less than high school, high school, associate/junior college, bachelors, and graduate, respectively. GRNPRICE refers to the level of willingness expressed by an individual to pay higher prices to protect the environment, with values ranging from 1 (very willing) to 5 (very unwilling). GRNMONEY refers to whether the participant has actually donated money to an environmental group in the past five years, with values 1 (yes) and 2 (no). 
 
+\newpage
 
 ## Data Visualisation 
 
-\newpage
-
-
+### Respondents' Degree of Education by 2021
 ```{r}
 #| label: fig-1
 #| fig-cap: Highest Degree of Education Obtained by Respondents
@@ -92,10 +91,11 @@ clean_data_degree |>
        title = "Degree Obtained by Respondents")
 ```
 
-@fig-1 talk more about it.
+@fig-1 shows the degree of education obtained by survey respondents, by 2021. We immediately notice that the most number of respondents, comprising over 600 individuals, have high school as their highest degree obtained. Next is a bachelor's degree with close to 500 respondents, followed by a graduate degree with close to 400 respondents. In comparison, the number of respondents with less than high school or junior college as their highest degree of education, remain relatively low with less than 100 and 200 respondents, respectively. 
 
 \newpage
 
+### Respondents' Willingness to Pay for Environmental Protection
 ```{r}
 #| label: fig-2
 #| fig-cap: Respondents' willingness to pay to protect the environment
@@ -115,25 +115,43 @@ clean_data_willingness |>
        y = "Number of Respondents",
        title = "Willingness to Pay for Environmental Protection")
 ```
-@fig-2 talks about.
+@fig-2 presents a trend where the number of respondents per level of willingness to pay for environmental protection, steadily increases from very unwilling to fairly willing, with the exception of very willing. The majority of respondents, comprising over 600 individuals, claim that they are fairly willing to pay higher prices to protect the environment. In contrast, the least number of respondents, of around 130 individuals, state that they are very willing to pay higher prices for environmental protection. This gap between respondents who are fairly willing versus very willing, may suggest the attitude-behaviour phenomenon, where individuals want to contribute towards environmental change, but do not follow through in action. 
 
 \newpage
 
-## Model
+# Model
 
-I am interested in estimating the relationship between a respondent's willingness to donate money, their education, and whether they actually donate money. In this section, I estimate the logistic regression model:
+The final logistic regression model is:
 
 $$
 \begin{aligned}
 y_i|\pi_i & \sim \mbox{Bern}(\pi_i) \\
-\mbox{logit}(\pi_i) & = \left(\beta_0+\beta_1 x_i +\beta_2 z_i\right) \\
+\mbox{logit}(\pi_i) & = \beta_0+\beta_1 x_i +\beta_2 z_i \\
 \beta_0 & \sim \mbox{Normal}(0, 2.5)\\
 \beta_1 & \sim \mbox{Normal}(0, 2.5)\\
 \beta_2 & \sim \mbox{Normal}(0, 2.5)
 \end{aligned}
 $$
 
-where $y_i$ is whether the individual donated (actually 0 or 1), $x_i$ is their willingness to donate, $z_i$ is their level of education, and $\pi_i$ is the probability that observation $i$ donated.
+The output of this logistic model estimates the relationship between a respondent’s willingness to pay higher prices to protect the environment, their education level obtained, and whether they have actually donated money to an environmental group in the past five years. 
+
+In the model:
+
+- $y_i$ is a binary variable indicating whether the individual donated (1 if the individual donated, and 0 if they did not).
+- $x_i$ is a categorical variable indicating the individual’s willingness to pay for environmental protection. The observations include very willing, fairly willing, neutral, fairly unwilling, and very unwilling. 
+- $z_i$ is a categorical variable indicating the individual’s highest level of education obtained by 2021. Observations include less than high school, high school, junior college, bachelors, and graduate. 
+- $\pi_i$ is the probability that observation i donated.
+
+## Model Justifications
+
+Talk about categorical variables.
+
+Two paragraphs for each categorical variable. 
+
+Why did you build this model! 
+
+
+\newpage
 
 # Results
 
@@ -195,7 +213,7 @@ degree_and_donation |>
 
 # Discussion
 
-My discussion here. 
+My discussion here. Model, data, results :) everything. 
 
 ## First discussion point {#sec-first-point}
 

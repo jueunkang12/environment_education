@@ -122,7 +122,7 @@ donation_clean <- donation_clean |>
   )
 
 #### Save data ####
-write_csv(clean_data, "~/Documents/environment_education/inputs/data/clean_data.csv")
-write_csv(degrees_clean, "~/Documents/environment_education/inputs/data/degrees_clean.csv")
-write_csv(willingness_clean, "~/Documents/environment_education/inputs/data/willingness_clean.csv")
-write_csv(donation_clean, "~/Documents/environment_education/inputs/data/donation_clean.csv")
+write_csv(clean_data, "inputs/data/clean_data.csv")
+write_csv(degrees_clean, "inputs/data/degrees_clean.csv")
+write_csv(willingness_clean, "inputs/data/willingness_clean.csv")
+write_csv(donation_clean, "inputs/data/donation_clean.csv")
