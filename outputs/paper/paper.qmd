@@ -6,7 +6,7 @@ author:
 thanks: "Code and data are available at: https://github.com/jueunkang12/environment_education"
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
-abstract: "This paper discusses the relationship between the level of education obtained and the attitude-behaviour gap towards environmental protection. We do this by comparing the respondents’ willingness to pay money for environmental protection to whether they actually donate money towards the environment, by varying levels of degrees obtained. We find that respondents with highschool as their highest obtained degree have the highest attitude-behaviour gap; they claim that they would pay money for environmental protection, but have not donated in the past five years towards environmental protection. These findings matter as we are able to get insight into which group of respondents require more support in translating their positive attitudes towards environmental protection into action. "
+abstract: "The attitude-behaviour gap is a phenomenon in which individuals’ claims do not align with their actions, often observed in the context of social change efforts. The following paper investigates the relationship between respondents’ attitude-behaviour gap towards environmental protection, and their education level obtained. Using data from the 2021 GSS, we find that respondents whose highest obtained degree is highschool exhibit the largest attitude-behaviour gap; despite claiming a willingness to pay higher prices to protect the environment, they have not donated towards environmental protection in the past five years. These findings matter as we are able to get insight into the group of respondents who require more support in translating their positive attitudes towards environmental protection into action."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -38,40 +38,36 @@ clean_data_donation <- read_csv("~/Documents/environment_education/inputs/data/d
 
 # Introduction
 
-As the condition of the natural environment continues to decline, concerns around the environment, including climate change, loss of biodiversity, and pollution, have grown [@condition]. With increased public attention, environmental and social development initiatives have emphasised environmental change as a social justice issue, rather than merely a physical one; people with a lower social, economic, and political advantage face the negative consequences of these environmental problems [@justice]. In order to address these issues, the need for collective action and effort has been highlighted, however, there is often a discrepancy between people’s attitudes and their behaviours [@campaign]. This phenomenon comes from social psychology, called the “attitude-behaviour gap”, better defined as: the mismatch between how someone feels about a certain behaviour in comparison to their actual behaviour [@gap]. 
+As the condition of the natural environment continues to worsen, concerns regarding environmental challenges such as climate change, loss of biodiversity, and pollution, have intensified [@condition]. Environmental and social development initiatives emphasise the need for collective action and effort [@campaign], as environmental change is not solely a physical issue, but also a matter of social justice; individuals who are socially, economically, and politically disadvantaged are disproportionately impacted by the consequences of environmental problems [@justice]. However, there is often a discrepancy between people’s attitudes and their behaviours [@campaign], known as the “attitude-behaviour gap” in social psychology [@gap]. 
 
-Education has been recognised as a crucial tool in promoting social change, through providing knowledge and awareness on positive social impacts - “education therefore comes prior to social change” [@education]. Particularly among younger age groups, education helps eradicate ignorance, instilling principles which will not only benefit individuals but social at large [@education]. While the importance of education in fostering change is largely studied and recognised, there remains a gap in exploring the relationship between one’s degree and their tendency to exhibit environmentally responsible behaviour [@campaign]. Specifically, there is a lack of research surrounding the attitude-behaviour gap in relation to environmental action among individuals with different education levels obtained. 
+Education has been recognised and studied as a crucial tool in promoting social change as it provides individuals with knowledge and awareness, and equips them with the skills to actively engage in social change efforts [@education]. Despite this, there remains a gap in exploring the relationship between one’s education level obtained and their tendency to claim to, or actually exhibit, environmentally responsible behaviour [@campaign]. Thus, the estimand that we intend to investigate is the relationship between the level of education obtained and the attitude-behaviour gap regarding environmental protection. 
 
-This paper finds that the majority of respondents have obtained a high school degree as their highest level of education. In addition, the majority of respondents state that they are fairly willing to donate towards environmental protection in the GSS interview. However, when we analysed the potential of the attitude-behaviour phenomenon, by comparing respondents’ willingness to donate to respondents’ actual donation behaviour in the last five years, we find that the highest mismatch is of respondents with a highschool education as their highest obtained degree. This study is important as it provides implications for the implementation of environmental education initiatives. By identifying the education levels associated with the largest attitude-behaviour gap in terms of environmental action, our findings can help in modifying educational interventions to specific educational levels. 
+This paper finds that the most number of respondents have high school as their highest education level, and that the most number of respondents state that they are fairly willing to pay higher prices to protect the environment in the GSS interview. However, by comparing the willingness to the actual donation behaviour of respondents in the past five years, across varying levels of education, we find that the highest mismatch is of respondents with a highschool education as their highest obtained degree. This study is important as it provides implications for the implementation of environmental education; our findings can assist in identifying education levels where the largest attitude-behaviour gap exists, allowing for more targeted approaches. 
 
-The remainder of this paper has four sections. In section 2, we explain the data source and methodology used for data collection, data cleaning, variables used, potential biases and ethical issues. In section 3, we present a logistic regression model, estimating the relationship between a respondent’s willingness to donate money, their education, and whether they actually donate money. In section 4, the final model is interpreted along with all findings regarding respondents’ willingness and respondents’ behaviour, in relation to their education. Finally, a discussion is carried out, providing the implications of this paper’s findings, as well as the weaknesses and future steps of this investigation. 
+The remainder of this paper has four sections. In section 2, we explain the data source and methodologies used for data collection, data cleaning, variables used, potential biases and ethical issues. In section 3, we present a logistic regression model, estimating the relationship between a respondent’s willingness to donate money, their education, and whether they actually donate money. In section 4, the final results and model is interpreted along with all findings regarding respondents’ willingness and respondents’ donation behaviour, in relation to their education level obtained. Finally, a discussion is carried out, providing the implications of this paper’s findings, as well as the weaknesses and future steps of this investigation. 
 
-This paper uses R [@citeR] for data cleaning and analysis, R packages *tidyverse* [@tidyverse], *tidyr* [@tidyr], *janitor* [@janitor], *here* [@here], *dplyr* [@dplyr], *labelled* [@labelled], and *ggplot2* [@ggplot2], to create the figures, and *haven* [@haven] to read the dta files. 
+This paper uses R [@citeR] for data cleaning and analysis, R packages *tidyverse* [@tidyverse], *here* [@here], *dplyr* [@dplyr], *labelled* [@labelled], and *ggplot* [@ggplot], to create the figures, and *haven* [@haven] to read the dta files. 
 
 \newpage
 
 # Data {#sec-data}
 
-Our data is of penguins.
-
 ## Data Source and Methodology
 
-Talk about data source and methodology.
+The data used in this paper is obtained from the US General Social Survey (GSS), funded by the National Science Foundation and operated by the National Opinion Research Centre (NORC). In particular, this paper utilised data from the 2021 GSS Cross-section survey, which is available through the GSS website. The GSS has been providing nationally representative data of adults in the United States since 1972, employing a consistent sampling approach to ensure comparability of survey data overtime. 
 
-### Strengths and Weaknesses of GSS
+However, in response to the COVID-19 pandemic, the 2021 GSS implemented methodological adaptations for the safety of both respondents and interviewers. The survey utilised an address-based sampling push-to-web methodology, targeting adults aged 18 or older, residing in noninstitutional housing in the United States at the time of the interviews. Participants were selected using the last birthday method within each household, where 88.3 percent of respondents completed the survey through the web, while 11.7 percent of respondents completed it by phone interview. The fielding period was from December 1, 2020 to May 3, 2021, and the overall response rate for the 2021 cross-section data collection was 17.4 percent, with 4032 completed interviews from 27591 addresses. 
+
+## Attributes
 
 Talk about strengths and weaknesses of GSS.
 
-### Potential Ethical and Bias Issues
+## Terminology
 
-Talk about potential ethical and bias issues.
-
-### Attributes
-
-Attributes go here.
+This paper uses an individual year dataset, summarising variables specific to 2021. Through data cleaning the following variables are kept: DEGREE, GRNPRICE, and GRNMONEY. For variable DEGREE, respondents of the 2021 GSS Cross-section survey, were asked to provide the highest degree obtained: ranging from 0-4, corresponding to less than high school, high school, associate/junior college, bachelors, and graduate, respectively. GRNPRICE refers to the level of willingness expressed by an individual to pay higher prices to protect the environment, with values ranging from 1 (very willing) to 5 (very unwilling). GRNMONEY refers to whether the participant has actually donated money to an environmental group in the past five years, with values 1 (yes) and 2 (no). 
 
 
-## Exploration
+## Data Visualisation 
 
 \newpage
 
@@ -123,7 +119,21 @@ clean_data_willingness |>
 
 \newpage
 
-# Model
+## Model
+
+I am interested in estimating the relationship between a respondent's willingness to donate money, their education, and whether they actually donate money. In this section, I estimate the logistic regression model:
+
+$$
+\begin{aligned}
+y_i|\pi_i & \sim \mbox{Bern}(\pi_i) \\
+\mbox{logit}(\pi_i) & = \left(\beta_0+\beta_1 x_i +\beta_2 z_i\right) \\
+\beta_0 & \sim \mbox{Normal}(0, 2.5)\\
+\beta_1 & \sim \mbox{Normal}(0, 2.5)\\
+\beta_2 & \sim \mbox{Normal}(0, 2.5)
+\end{aligned}
+$$
+
+where $y_i$ is whether the individual donated (actually 0 or 1), $x_i$ is their willingness to donate, $z_i$ is their level of education, and $\pi_i$ is the probability that observation $i$ donated.
 
 # Results
 
@@ -176,7 +186,8 @@ degree_and_donation |>
   scale_fill_brewer(palette = "Paired") +
   labs(x = "Highest Degree Obtained",
        y = "Number of Respondents",
-       title = "Donation Made to Environment by Degree")
+       title = "Donation Made to Environment by Degree", 
+       fill = "Donation Made")
 
 ```
 
