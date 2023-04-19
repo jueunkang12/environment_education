@@ -35,7 +35,6 @@ clean_data_donation <- read_csv(here::here("inputs/data/donation_clean.csv"))
 
 ```
 
-
 # Introduction
 
 As the condition of the natural environment continues to worsen, concerns regarding environmental challenges such as climate change, loss of biodiversity, and pollution, have intensified [@condition]. Environmental and social development initiatives emphasise the need for collective action and effort [@campaign], as environmental change is not solely a physical issue, but also a matter of social justice; individuals who are socially, economically, and politically disadvantaged are disproportionately impacted by the consequences of environmental problems [@justice]. However, there is often a discrepancy between people’s attitudes and their behaviours [@campaign], known as the “attitude-behaviour gap” in social psychology [@gap]. 
@@ -146,7 +145,7 @@ In the model:
 
 Talk about categorical variables.
 
-Two paragraphs for each categorical variable. 
+Two paragraphs for each categorical variable.
 
 Why did you build this model! 
 
@@ -165,8 +164,6 @@ Why did you build this model!
 degree_and_willingness <-
   clean_data_degree |>
   left_join(clean_data_willingness, by = join_by(id), suffix = c("Degree", "Willingness"))
-
-
 
 degree_and_willingness |>
   ggplot(aes(x = degree, y = grnprice)) +
