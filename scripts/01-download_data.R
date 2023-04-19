@@ -1,11 +1,9 @@
 #### Preamble ####
-# Purpose: Downloads and saves the data from [...UPDATE THIS...]
+# Purpose: Downloads and saves the data from US 2021 GSS
 # Author: Jueun Kang
-# Data: 29 March 2023
+# Data: 20 April 2023
 # Contact: jueun.kang@mail.utoronto.ca
 # Pre-requisites: N/A
-# Any other information needed? N/A
-
 
 #### Workspace setup ####
 library(tidyverse)
