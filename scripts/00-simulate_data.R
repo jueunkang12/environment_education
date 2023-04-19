@@ -12,65 +12,67 @@ set.seed(386)
 
 #### Simulate data ####
 
-## Simulate degree data 
+## Simulate degree data
 
-simulated_data_degree <- 
+set.seed(853)
+
+simulated_degree_data <-
   tibble(
-    degree = runif(n = 1000, min = 1, 5) |> round(0)
+    degree =
+      c(
+        rep("< High School"),
+        rep("High School"),
+        rep("Junior College"),
+        rep("Bachelors"),
+        rep("Graduate")
+      ),
+    count =
+      runif(
+        n = 5,
+        min = 0,
+        max = 1000
+      ) |> round(0),
   )
 
-sorted_data_degree <-
-  simulated_data_degree |> 
-  mutate(
-    degree = case_when(
-      degree == 1 ~ "< High School",
-      degree == 2 ~ "High School",
-      degree == 3 ~ "Junior College",
-      degree == 4 ~ "Bachelors",
-      degree == 5 ~ "Graduate",
-      TRUE ~ "Other"
-    )
-  )
-
-sorted_data_degree
+head(simulated_degree_data)
 
 ## Simulate willingness data
 
-simulated_data_willingness <-
+simulated_willingness_data <-
   tibble(
-    willingness = runif(n = 1000, min = 1, 5) |> round(0)
+    willingness =
+      c(
+        rep("Very Willing"),
+        rep("Fairly Willing"),
+        rep("Neutral"),
+        rep("Fairly Unwilling"),
+        rep("Very Unwilling")
+      ),
+    count =
+      runif(
+        n = 5,
+        min = 0,
+        max = 1000
+      ) |> round(0),
   )
 
-sorted_data_willingness <-
-  simulated_data_willingness |> 
-    mutate(
-      willingness = case_when(
-        willingness == 1 ~ "Very Willing",
-        willingness == 2 ~ "Fairly Willing",
-        willingness == 3 ~ "Neutral",
-        willingness == 4 ~ "Fairly Unwilling",
-        willingness == 5 ~ "Very Unwilling",
-        TRUE ~ "Other"
-      )
-    )
-
-sorted_data_willingness
+head(simulated_willingness_data)
   
 ## Simulate donation data
 
-simulated_data_donation <-
+simulated_donation_data <-
   tibble(
-    donation = runif(n = 1000, min = 1, 2) |> round(0)
+    donation =
+      c(
+        rep("Yes"),
+        rep("No")
+      ),
+    count =
+      runif(
+        n = 2,
+        min = 0,
+        max = 1000
+      ) |> round(0),
   )
 
-sorted_data_donation <-
-  simulated_data_donation |> 
-  mutate(
-    donation = case_when(
-      donation == 1 ~ "Yes",
-      donation == 2 ~ "No",
-      TRUE ~ "Other"
-    )
-  )
-
-sorted_data_donation
+head(simulated_donation_data)
