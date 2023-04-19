@@ -1,10 +1,9 @@
 #### Preamble ####
-# Purpose: Simulates... [...UPDATE THIS...]
+# Purpose: Simulates a sample data set for degree, willingness, and donation
 # Author: Jueun Kang
-# Data: 29 March 2023
+# Data: 20 April 2023
 # Contact: jueun.kang@mail.utoronto.ca
-# Pre-requisites: N/A
-# Any other information needed? N/A
+# Pre-requisites: Need to know where to get US 2021 GSS data.
 
 #### Workspace setup ####
 library(tidyverse)
