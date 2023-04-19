@@ -1,10 +1,9 @@
 #### Preamble ####
-# Purpose: Cleans.... [...UPDATE THIS...]
+# Purpose: Cleans the US 2021 GSS raw data
 # Author: Jueun Kang
-# Data: 29 March 2023
+# Data: 20 April 2023
 # Contact: jueun.kang@mail.utoronto.ca
-# Pre-requisites: N/A
-# Any other information needed? N/A
+# Pre-requisites: Need to download raw data from the US 2021 GSS website
 
 #### Workspace setup ####
 library(tidyverse)

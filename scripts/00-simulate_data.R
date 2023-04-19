@@ -3,7 +3,7 @@
 # Author: Jueun Kang
 # Data: 20 April 2023
 # Contact: jueun.kang@mail.utoronto.ca
-# Pre-requisites: Need to know where to get US 2021 GSS data.
+# Pre-requisites: Need to know where to get US 2021 GSS data
 
 #### Workspace setup ####
 library(tidyverse)
