@@ -41,7 +41,7 @@ As the condition of the natural environment continues to worsen, concerns regard
 
 Education has been recognised and studied as a crucial tool in promoting social change as it provides individuals with knowledge and awareness, and equips them with the skills to actively engage in social change efforts [@education]. Despite this, there remains a gap in exploring the relationship between one’s education level obtained and their tendency to claim to, or actually exhibit, environmentally responsible behaviour [@campaign]. Thus, the estimand that we intend to investigate is the relationship between the level of education obtained and the attitude-behaviour gap regarding environmental protection. 
 
-This paper finds that the most number of respondents have high school as their highest education level, and that the most number of respondents state that they are fairly willing to pay higher prices to protect the environment in the GSS interview. However, by comparing the willingness to the actual donation behaviour of respondents in the past five years, across varying levels of education, we find that the highest mismatch is of respondents with a highschool education as their highest obtained degree. This study is important as it provides implications for the implementation of environmental education; our findings can assist in identifying education levels where the largest attitude-behaviour gap exists, allowing for more targeted approaches. 
+This paper finds that the most number of respondents have high school as their highest education level, and that the most number of respondents state that they are fairly willing to pay higher prices to protect the environment in the GSS interview [@gss]. However, by comparing the willingness to the actual donation behaviour of respondents in the past five years, across varying levels of education, we find that the highest mismatch is of respondents with a highschool education as their highest obtained degree. This study is important as it provides implications for the implementation of environmental education; our findings can assist in identifying education levels where the largest attitude-behaviour gap exists, allowing for more targeted approaches. 
 
 The remainder of this paper has four sections. In section 2, we explain the data source and methodologies used for data collection, data cleaning, variables used, potential biases and ethical issues. In section 3, we present a logistic regression model, estimating the relationship between a respondent’s willingness to donate money, their education, and whether they actually donate money. In section 4, the final results and model is interpreted along with all findings regarding respondents’ willingness and respondents’ donation behaviour, in relation to their education level obtained. Finally, a discussion is carried out, providing the implications of this paper’s findings, as well as the weaknesses and future steps of this investigation. 
 
@@ -53,13 +53,24 @@ This paper uses R [@citeR] for data cleaning and analysis, R packages *tidyverse
 
 ## Data Source and Methodology
 
-The data used in this paper is obtained from the US General Social Survey (GSS), funded by the National Science Foundation and operated by the National Opinion Research Centre (NORC). In particular, this paper utilised data from the 2021 GSS Cross-section survey, which is available through the GSS website. The GSS has been providing nationally representative data of adults in the United States since 1972, employing a consistent sampling approach to ensure comparability of survey data overtime. 
+The data used in this paper is obtained from the US General Social Survey (GSS), funded by the National Science Foundation and operated by the National Opinion Research Centre (NORC) [@gss]. In particular, this paper utilised data from the 2021 GSS Cross-section survey, which is available through the GSS website [@gss]. The GSS has been providing nationally representative data of adults in the United States since 1972, employing a consistent sampling approach to ensure comparability of survey data overtime [@gss]. 
 
-However, in response to the COVID-19 pandemic, the 2021 GSS implemented methodological adaptations for the safety of both respondents and interviewers. The survey utilised an address-based sampling push-to-web methodology, targeting adults aged 18 or older, residing in noninstitutional housing in the United States at the time of the interviews. Participants were selected using the last birthday method within each household, where 88.3 percent of respondents completed the survey through the web, while 11.7 percent of respondents completed it by phone interview. The fielding period was from December 1, 2020 to May 3, 2021, and the overall response rate for the 2021 cross-section data collection was 17.4 percent, with 4032 completed interviews from 27591 addresses. 
+However, in response to the COVID-19 pandemic, the 2021 GSS implemented methodological adaptations for the safety of both respondents and interviewers [@gss]. The survey utilised an address-based sampling push-to-web methodology, targeting adults aged 18 or older, residing in noninstitutional housing in the United States at the time of the interviews [@gss]. Participants were selected using the last birthday method within each household, where 88.3 percent of respondents completed the survey through the web, while 11.7 percent of respondents completed it by phone interview [@gss]. The fielding period was from December 1, 2020 to May 3, 2021, and the overall response rate for the 2021 cross-section data collection was 17.4 percent, with 4032 completed interviews from 27591 addresses [@gss]. 
+
+The 2021 GSS Cross-section survey sample was released in three batches. The first sample batch was released to the field on December 1, 2020, consisting of 10091 addresses: 5891 addresses from the NORC 2010 National Sampling frame and 4200 un-clustered addresses from the United States Postal Service (USPS) Computerised Delivery Sequence File (CDS). The second and third sample batch were released to the field on January 21, 20201 and February 24, 2021, and consisted of 10000 and 7500 un-clustered addresses from the CDS, respectively. Until May 3, 2021, all three batches remained open for data collection. 
 
 ## Attributes
 
-Talk about strengths and weaknesses of GSS.
+The US GSS has both strengths and limitations. The US GSS questionnaire encompasses a wide range of topics, including demographic, behavioural, and attitudinal questions, allowing researchers to examine the structure and functioning of society, the role played by various subgroups, and compare data from the United States to other nations. Researchers can conduct comparisons for up to 80 years, as the questions have been adapted from earlier surveys. In addition, the GSS makes high-quality data easily accessible with minimal cost and waiting. 
+
+Looking at the 2021 GSS Cross-section survey specifically, the methodological adaptations in response to COVID-19, supported the primary mode of data collection through a web-based instrument (phone-based data collection was only used for a limited number of cases). This web-based method provided the opportunity for stratified un-clustered address sampling, contrasting to previous years, where data collection was primarily face-to-face, using a stratified clustered sample. The NORC National Sampling Frame used as part of the first batch, allowed for an equal-probability multi-stage cluster sample of housing units for the entire United States. This is beneficial as it ensures that each housing unit has an equal chance of being included within the sample. Additionally, the stratified un-clustered address sampling approach is advantageous as it leads to a more representative sample, reducing sampling error and variability within each group. 
+
+As for the downside, certain parts of the questionnaire require supplementary research as the questions asked are general in nature. In addition, the change in methodology holds the potential for many limitations and errors. For example, the push-to-web methodology in the 2021 GSS Cross-section survey, uses the last birthday method, meaning the person with the most recent birthday is selected rather than a random individual from the household. Further biases and ethical concerns are discussed in section 5.3. 
+
+### Impact on Study
+
+While this paper focuses on 2021 and does not compare data with other years, it is crucial to acknowledge that the change in methodology may have influenced the data collected. Specifically, it is difficult to determine whether respondents’ opinions were influenced by the online mode of data collection. Furthermore, the data may have been impacted by the differences between online and phone-based data collection methods. Moreover, if future research seeks to compare across different years, comparing changes in public opinion could be complicated by the changes in methodology in 2021. 
+
 
 ## Terminology
 
@@ -68,6 +79,8 @@ This paper uses an individual year dataset, summarising variables specific to 20
 \newpage
 
 ## Data Visualisation 
+
+We are interested in the relationship between the level of education obtained and the attitude-behaviour gap regarding environmental protection. In this section, we visualise the number of respondents by highest degree obtained, as well as the number of respondents by their willingness to pay to protect the environment. This has implications for understanding respondents’ willingness to protect the environment by their education level, which is further explored in section 4 of this paper.   
 
 ### Respondents' Degree of Education by 2021
 ```{r}
@@ -149,9 +162,7 @@ We expect a positive, and increasing relationship between an individual’s will
 
 Additionally, we expect a positive, and increasing relationship between an individual’s highest level of education and whether they actually make a donation to an environmental group. Specifically, we expect that individuals with a higher degree completed, on average, are more likely to pay than those who have completed a lower degree level. We believe this as people with a higher level of formal education have an increased exposure to information, enhancing their knowledge on environmental awareness [@green]. 
 
-There is one other aspect that we could have included, but was not, in order to focus on the individual variables themselves first; the interaction between willingness to pay for environmental protection and the highest level of education was not included but remains an area for future work. In addition, it is important to recognise that an individual’s willingness and education level also correlates with other factors, such as age, income, and more. Thus, an individual’s desire to reduce cognitive dissonance may be impacted by their financial status - studies show that concerned individuals take low-cost actions to reduce cognitive dissonance, but avoid higher-cost actions, despite this having greater potential for environmental protection [@action]. Additionally, individuals who hold a higher education level are likely to be older in age, having their own income, and thus, increasing the chances that they can donate in comparison to someone who is much younger and does not have a flow of income. This makes it difficult to determine the extent to which a donation being or not being made, is influenced by other factors. These limitations further remain as areas to address through future work. 
-
-
+There is one other aspect that we could have included, but was not, in order to focus on the individual variables themselves first; the interaction between willingness to pay for environmental protection and the highest level of education was not included but remains an area for future work. In addition, it is important to recognise that an individual’s willingness and education level also correlates with other factors, such as income. Thus, an individual’s desire to reduce cognitive dissonance may be impacted by their financial status - studies show that concerned individuals take low-cost actions to reduce cognitive dissonance, but avoid higher-cost actions, despite this having greater potential for environmental protection [@action]. Additionally, individuals who hold a higher education level are likely to have a higher income, thus, potentially increasing the chances that they can donate. This makes it difficult to determine the extent to which the act of a donation being or not being made, is influenced by other factors. These limitations remain as additional areas to address through future work.  
 
 \newpage
 
@@ -177,10 +188,9 @@ degree_and_willingness |>
        title = "Degree and Willingness to Pay For Environment")
 
 ```
-@fig-3 talks about. 
+@fig-3 displays the relationship between two discrete variables: respondents’ willingness to pay towards environmental protection, and the highest degree obtained by respondents, by 2021. Upon examining the scatterplot, we see that for a high school, bachelors, and graduate degree, the clusters become more populous with a higher level of willingness - with the exception of being very willing. This shows that the majority of respondents with a high school, bachelors, or graduate degree as their highest education level, are fairly willing to pay towards environmental protection. Interestingly, we see that there is a lack of respondents who are very willing to pay towards environmental protection across all levels of education. Moreover, there is a lack of a trend of willingness, for respondents with less than high school or junior college as their highest education level.  
 
 \newpage
-
 
 ```{r}
 #| label: fig-4
@@ -209,36 +219,35 @@ degree_and_donation |>
 
 ```
 
-@fig-4 talks about. 
+@fig-4 displays the number of respondents who have or have not made a donation to an environmental group in the past five years, by respondents’ highest degree obtained. Immediately, we notice that a large number of respondents who have high school as their highest degree obtained, have not made a donation to an environmental group in the past five years. Additionally, the gap between the number of respondents who have and have not made a donation, is the largest for respondents with a high school education as their highest degree. Moreover, there is a consistent pattern across all levels of education where more respondents have not made a donation than those who have. 
 
 # Discussion
 
-My discussion here. Model, data, results :) everything. 
+## Highest Degree Obtained and Willingness
 
-## First discussion point {#sec-first-point}
+Education enables social change by increasing one’s awareness and concern, as well as encouraging people to take action to support environmental protection. While this importance of education in initiating social change is widely known, there remains a large gap in research looking at the relationship between people’s willingness to contribute towards environmental protection and their specific education level. Thus, this discussion aims to provide insight on how different levels of education may influence one’s willingness to contribute towards environmental change. 
 
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
+In @fig-3, we find that the majority of respondents who have a high school, bachelors, or a graduate degree as their highest education level, are fairly willing to pay to help improve the environment. This contrasts to the respondents who have less than high school or a junior college degree as their highest degree, where the data points are more evenly spread out throughout the range of willingness. This makes sense as more and more high schools are turning to the Next Generation Science Standards in the US [@lag]. These standards were introduced in 2013, and refer to expectations about what students should know through science in school, including environmental topics [@lag]. Thus, it is possible that there is a lack of relationship between the number of respondents who have less than high school as their highest education level, and their willingness to improve the environment, as they did not complete and missed out on foundational knowledge about the environment. Additionally, the lack of relationship between the number of respondents who have junior college as their highest education level, and their willingness to improve the environment, may be influenced by the types of courses provided, school structure, and other aspects within junior college. However, it is important to recognize that this is an area lacking a lot of research, thus further investigations need to be carried out in the future to solidify the reasons behind these findings.  
 
-## Second discussion point
+As we analyse across the range of degrees obtained by respondents in @fig-3, we see a consistency in that there are very few respondents who are very willing to pay for environmental protection. This aligns to the fact that environmental nonprofits raise far less in comparison to other types of nonprofits. There are several reasons that may explain this: donors are not being properly taught about how their money supports organisations and makes a difference, the public may receive conflicting information about the environment, the lack of easily understandable resources, and more. This therefore highlights the overall need for improved strategies to increase peoples’ willingness to care for and support environmental change. 
 
-## Third discussion point
+## Attitude-Behaviour Gap in Environmental Protection
+
+The attitude-behaviour gap becomes highly evident as we analyse @fig-4 in relation to the other results seen in this paper. Reflecting back to @fig-3, we see that the most populous area is between respondent’s with a high school degree and a fairly willing attitude towards paying for environmental protection. However, in @fig-4, we see that the respondent’s with high school as their highest degree have the largest gap between the number of respondents that do and do not donate; the majority of respondents have not donated to environmental groups in the past 5 years. This trend makes sense according to Charles Saylan, a marine conservationist, who states that the U.S. educational system is typically based on trying to make people aware, but fails to translate to action [@failure]. Sayan highlights the need for environmental education to incorporate community action and engagement, to help students relate to, and feel engaged with the material they are taught [@failure]. In addition, @fig-1 shows that the majority of respondents have high school as their highest degree obtained, by 2021. This further emphasises the need to re-evaluate and re-structure the way that environmental education is taught during high school, to close the gap between environmental attitudes and environmental behaviours. 
+
+Another consistent trend we see in @fig-4 is that for all levels of education, more respondents have not donated to environmental groups in the past five years than those who have. This suggests that there are additional factors that impact environmental action more generally, beyond one’s highest education level. For example, Saylan states that the media has influenced how environmental movements and environmentalists are perceived - our world has become more polarised, with increasing doubts about science [@failure]. Environmentalism and environmental protection has been increasingly politicised and marginalised, when environmentalism at its core, is an individual and collective responsibility [@failure]. Additionally, income and financial status is another factor that relates to education. This will be further discussed in section 5.4.
+
+## Biases and Ethical Concerns
+
+Prior to discussing the weaknesses and next steps of this paper, we go over the biases and ethical concerns of the data used in this paper. There is a measurement error as changes were made to adapt to the primary mode of administration, the web. An example of a change made was that respondents could state “Don’t know” as a response for factual questions, but not for opinion related questions. There is also a non-response error: although the US GSS consistently achieved high response rates, the 2021 GSS was conducted through a mail invite, leading to a low response rate of 17%. Additionally, there is potential for a non-sample error, as we cannot ensure that participants gave an accurate response, or understood the survey questions correctly. Furthermore, there is a sampling error as the sample group is not representative of the entire population. By conducting the survey through the web or phone, the survey assumes that everyone has access to the internet connection or a phone. Moreover, all respondents of the 2021 GSS survey lived in non-institutional housing at the time of data collection. 
+
+Ethically, the GSS survey holds many questions which are highly personal. Thus, it is crucial that the privacy, confidentiality, and anonymity of survey participants are prioritised and preserved. Additionally, the survey fails to consider the potential respondents who may not feel comfortable sharing education or money-related questions. Although the survey allows respondents to state “Don’t Know” or “No Answer”, it can be demotivating and uncomfortable for respondents who have to skip through numerous questions. 
 
 ## Weaknesses and next steps
 
-Weaknesses and next steps should also be included.
+Although this paper provides valuable insight to the groups of respondents - respondents with high school as their highest education level - who require more support in translating their attitudes into action, as well as the overall lack of environmental action and behaviour across education levels, there are many weaknesses that need to be considered going forward. First, is it important to recognise that pay is not the only way that one can show their attitude towards the environment. Additionally, education is related to other factors including income. Thus, some respondents may have expressed that they would pay for environmental protection, but not have been able to due to financial factors. Some respondents may have not donated money to an environmental group in the past five years, but may have contributed positively to the environment through volunteer work, or making an effort to reduce their environmental impact. These scenarios and factors, and many others, are not considered in this paper, but should be investigated going forward in this area of research. Lastly, it may be interesting to conduct research to see how the trends and findings change with in-person data collection or overtime.  
 
 \newpage
-
-\appendix
-
-# Appendix {-}
-
-
-# Additional details
-
-
-\newpage
-
 
 # References
 
