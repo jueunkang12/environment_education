@@ -143,11 +143,14 @@ In the model:
 
 ## Model Justifications
 
-Talk about categorical variables.
+The model evaluates the relationship between two predictor variables and one binary response variable. The two predictor variables are the individual’s willingness to pay for environmental protection, and the individual’s highest level of education. The response variable is whether or not the individual donated to an environmental group in the past five years. We decided to evaluate this relationship as studies have found that individuals undertake actions in order to reduce cognitive dissonance [@action], and that education promotes a holistic approach towards environmental protection [@protection]. 
 
-Two paragraphs for each categorical variable.
+We expect a positive, and increasing relationship between an individual’s willingness to pay for environmental protection and whether they actually make a donation to an environmental group. Specifically, we expect that individuals in our dataset who are “very willing” to pay, will on average, be more likely to pay than those who are, “fairly willing”. Similarly, those who are “fairly willing” to pay, will on average, be more likely to pay than those who are “neutral”, and this pattern continues. We believe this as the more willing an individual is, the more likely they are to try to reduce the cognitive dissonance between their attitudes and their actual behaviours [@action]. 
 
-Why did you build this model! 
+Additionally, we expect a positive, and increasing relationship between an individual’s highest level of education and whether they actually make a donation to an environmental group. Specifically, we expect that individuals with a higher degree completed, on average, are more likely to pay than those who have completed a lower degree level. We believe this as people with a higher level of formal education have an increased exposure to information, enhancing their knowledge on environmental awareness [@green]. 
+
+There is one other aspect that we could have included, but was not, in order to focus on the individual variables themselves first; the interaction between willingness to pay for environmental protection and the highest level of education was not included but remains an area for future work. In addition, it is important to recognise that an individual’s willingness and education level also correlates with other factors, such as age, income, and more. Thus, an individual’s desire to reduce cognitive dissonance may be impacted by their financial status - studies show that concerned individuals take low-cost actions to reduce cognitive dissonance, but avoid higher-cost actions, despite this having greater potential for environmental protection [@action]. Additionally, individuals who hold a higher education level are likely to be older in age, having their own income, and thus, increasing the chances that they can donate in comparison to someone who is much younger and does not have a flow of income. This makes it difficult to determine the extent to which a donation being or not being made, is influenced by other factors. These limitations further remain as areas to address through future work. 
+
 
 
 \newpage
